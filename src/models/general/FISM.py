@@ -27,9 +27,19 @@ class FISM(GeneralModel):
 
         u_ids = feed_dict['user_id']  # [batch_size]
         i_ids = feed_dict['item_id']  # [batch_size, -1]
+
+        # TODO: user_rated_item shouldn't be a tensor here, for each user may have rated different number of items
         user_rated_item = feed_dict['user_rated_item']
 
-        return {'prediction': i_ids.view(feed_dict['batch_size'], -1)}
+        u_bias = self.u_bias[u_ids]  # [batch_size, 1]
+        i_bias = self.i_bias[i_ids].squeeze(dim=-1)  # [batch_size, items]
+        user_rated_emb = self.q_matrix[user_rated_item]  # [batch_size, rated_num, emb_size]
+        current_q_item = self.q_matrix[i_ids]  # [batch_size, items, emb_size]
+        current_p_item = self.p_matrix[i_ids]  # [batch_size, items, emb_size]
+
+        prediction = u_bias + i_bias + (user_rated_emb.sum(dim=1, keepdim=True) * current_q_item).sum(dim=-1) - (current_p_item * current_q_item).sum(dim=-1)
+
+        return {'prediction': prediction.view(feed_dict['batch_size'], -1)}
 
     class Dataset(GeneralModel.Dataset):
         def _get_feed_dict(self, index: int):
