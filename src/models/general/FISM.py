@@ -3,6 +3,7 @@ import numpy as np
 import torch.nn as nn
 
 from models.BaseModel import GeneralModel
+from typing import List
 
 
 class FISM(GeneralModel):
@@ -37,12 +38,21 @@ class FISM(GeneralModel):
         current_q_item = self.q_matrix[i_ids]  # [batch_size, items, emb_size]
         current_p_item = self.p_matrix[i_ids]  # [batch_size, items, emb_size]
 
-        prediction = u_bias + i_bias + (user_rated_emb.sum(dim=1, keepdim=True) * current_q_item).sum(dim=-1) - (current_p_item * current_q_item).sum(dim=-1)
+        prediction = u_bias + i_bias + (user_rated_emb.sum(dim=1, keepdim=True) * current_q_item).sum(dim=-1) - (
+                    current_p_item * current_q_item).sum(dim=-1)
 
         return {'prediction': prediction.view(feed_dict['batch_size'], -1)}
 
     class Dataset(GeneralModel.Dataset):
+        user_rated_item_key = 'user_rated_item'
+
         def _get_feed_dict(self, index: int):
             feed_dict = super()._get_feed_dict(index)
-            feed_dict['user_rated_item'] = np.array(list(self.corpus.user_clicked_set[feed_dict['user_id']]))
+            feed_dict[self.user_rated_item_key] = np.array(list(self.corpus.user_clicked_set[feed_dict['user_id']]))
+            return feed_dict
+
+        # Collate a batch according to the list of feed dicts
+        def collate_batch(self, feed_dicts: List[dict]) -> dict:
+            feed_dict = super().collate_batch(feed_dicts)
+            feed_dict[self.user_rated_item_key] = [d[self.user_rated_item_key] for d in feed_dicts]
             return feed_dict
