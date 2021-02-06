@@ -1,7 +1,7 @@
 # -*- coding: UTF-8 -*-
 import numpy as np
 import torch.nn as nn
-
+import torch
 from models.BaseModel import GeneralModel
 from typing import List
 
@@ -29,16 +29,16 @@ class FISM(GeneralModel):
         u_ids = feed_dict['user_id']  # [batch_size]
         i_ids = feed_dict['item_id']  # [batch_size, -1]
 
-        # TODO: user_rated_item shouldn't be a tensor here, for each user may have rated different number of items
-        user_rated_item = feed_dict['user_rated_item']
+        user_rated_item = feed_dict['user_rated_item']  # List[np.array]
 
-        u_bias = self.u_bias[u_ids]  # [batch_size, 1]
-        i_bias = self.i_bias[i_ids].squeeze(dim=-1)  # [batch_size, items]
-        user_rated_emb = self.q_matrix[user_rated_item]  # [batch_size, rated_num, emb_size]
-        current_q_item = self.q_matrix[i_ids]  # [batch_size, items, emb_size]
-        current_p_item = self.p_matrix[i_ids]  # [batch_size, items, emb_size]
+        u_bias = self.u_bias(u_ids)  # [batch_size, 1]
+        i_bias = self.i_bias(i_ids).squeeze(dim=-1)  # [batch_size, items]
 
-        prediction = u_bias + i_bias + (user_rated_emb.sum(dim=1, keepdim=True) * current_q_item).sum(dim=-1) - (
+        user_rated_emb = torch.stack([self.p_matrix(index.to('cuda:0')).sum(dim=0) for index in user_rated_item])  # [batch_size, emb_size]
+        current_q_item = self.q_matrix(i_ids)  # [batch_size, items, emb_size]
+        current_p_item = self.p_matrix(i_ids)  # [batch_size, items, emb_size]
+
+        prediction = u_bias + i_bias + (user_rated_emb[:, None, :] * current_q_item).sum(dim=-1) - (
                     current_p_item * current_q_item).sum(dim=-1)
 
         return {'prediction': prediction.view(feed_dict['batch_size'], -1)}
@@ -54,5 +54,5 @@ class FISM(GeneralModel):
         # Collate a batch according to the list of feed dicts
         def collate_batch(self, feed_dicts: List[dict]) -> dict:
             feed_dict = super().collate_batch(feed_dicts)
-            feed_dict[self.user_rated_item_key] = [d[self.user_rated_item_key] for d in feed_dicts]
+            feed_dict[self.user_rated_item_key] = [torch.from_numpy(d[self.user_rated_item_key]) for d in feed_dicts]
             return feed_dict
