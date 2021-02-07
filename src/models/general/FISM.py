@@ -2,16 +2,16 @@
 import numpy as np
 import torch.nn as nn
 import torch
-from models.BaseModel import GeneralModel
+from models.BaseModel import SequentialModel
 from typing import List
 
 
-class FISM(GeneralModel):
+class FISM(SequentialModel):
     @staticmethod
     def parse_model_args(parser):
         parser.add_argument('--emb_size', type=int, default=64,
                             help='Size of embedding vectors.')
-        return GeneralModel.parse_model_args(parser)
+        return SequentialModel.parse_model_args(parser)
 
     def __init__(self, args, corpus):
         self.emb_size = args.emb_size
@@ -29,6 +29,7 @@ class FISM(GeneralModel):
         u_ids = feed_dict['user_id']  # [batch_size]
         i_ids = feed_dict['item_id']  # [batch_size, -1]
 
+        # TODO: FISM is a sequential model, which extract user_rated_item from the user's history
         user_rated_item = feed_dict['user_rated_item']  # List[np.array]
 
         u_bias = self.u_bias(u_ids)  # [batch_size, 1]
@@ -38,12 +39,13 @@ class FISM(GeneralModel):
         current_q_item = self.q_matrix(i_ids)  # [batch_size, items, emb_size]
         current_p_item = self.p_matrix(i_ids)  # [batch_size, items, emb_size]
 
+        # TODO: for negative items, there shouldn't be current_p_item * current_q_item
         prediction = u_bias + i_bias + (user_rated_emb[:, None, :] * current_q_item).sum(dim=-1) - (
                     current_p_item * current_q_item).sum(dim=-1)
 
         return {'prediction': prediction.view(feed_dict['batch_size'], -1)}
 
-    class Dataset(GeneralModel.Dataset):
+    class Dataset(SequentialModel.Dataset):
         user_rated_item_key = 'user_rated_item'
 
         def _get_feed_dict(self, index: int):
