@@ -1,0 +1,2124 @@
+INFO:root:Namespace(model_name='FISM')
+INFO:root:--------------------------------------------- BEGIN: 2021-02-06 10:37:02 ---------------------------------------------
+INFO:root:
+========================================
+ Arguments       | Values               
+========================================
+ batch_size      | 256                 
+ buffer          | 1                   
+ dataset         | Grocery_and_Gourm...
+ dropout         | 0                   
+ early_stop      | 5                   
+ emb_size        | 64                  
+ epoch           | 100                 
+ eval_batch_size | 256                 
+ gpu             | 0                   
+ history_max     | 20                  
+ l2              | 1e-06               
+ load            | 0                   
+ lr              | 0.001               
+ metric          | ["NDCG","HR"]       
+ num_neg         | 1                   
+ num_workers     | 5                   
+ optimizer       | Adam                
+ random_seed     | 2019                
+ topk            | [5,10]              
+========================================
+INFO:root:cuda available: True
+INFO:root:# cuda devices: 1
+INFO:root:Load corpus from ../data/Grocery_and_Gourmet_Food/BaseReader.pkl
+INFO:root:#params: 1105634
+INFO:root:FISM(
+  (p_matrix): Embedding(8457, 64)
+  (q_matrix): Embedding(8457, 64)
+  (u_bias): Embedding(14681, 1)
+  (i_bias): Embedding(8457, 1)
+)
+INFO:root:Namespace(model_name='FISM')
+INFO:root:--------------------------------------------- BEGIN: 2021-02-06 10:39:11 ---------------------------------------------
+INFO:root:
+========================================
+ Arguments       | Values               
+========================================
+ batch_size      | 256                 
+ buffer          | 1                   
+ dataset         | Grocery_and_Gourm...
+ dropout         | 0                   
+ early_stop      | 5                   
+ emb_size        | 64                  
+ epoch           | 100                 
+ eval_batch_size | 256                 
+ gpu             | 0                   
+ history_max     | 20                  
+ l2              | 1e-06               
+ load            | 0                   
+ lr              | 0.001               
+ metric          | ["NDCG","HR"]       
+ num_neg         | 1                   
+ num_workers     | 5                   
+ optimizer       | Adam                
+ random_seed     | 2019                
+ topk            | [5,10]              
+========================================
+INFO:root:cuda available: True
+INFO:root:# cuda devices: 1
+INFO:root:Load corpus from ../data/Grocery_and_Gourmet_Food/BaseReader.pkl
+INFO:root:#params: 1105634
+INFO:root:FISM(
+  (p_matrix): Embedding(8457, 64)
+  (q_matrix): Embedding(8457, 64)
+  (u_bias): Embedding(14681, 1)
+  (i_bias): Embedding(8457, 1)
+)
+INFO:root:Namespace(model_name='FISM')
+INFO:root:--------------------------------------------- BEGIN: 2021-02-06 10:40:28 ---------------------------------------------
+INFO:root:
+========================================
+ Arguments       | Values               
+========================================
+ batch_size      | 256                 
+ buffer          | 1                   
+ dataset         | Grocery_and_Gourm...
+ dropout         | 0                   
+ early_stop      | 5                   
+ emb_size        | 64                  
+ epoch           | 100                 
+ eval_batch_size | 256                 
+ gpu             | 0                   
+ history_max     | 20                  
+ l2              | 1e-06               
+ load            | 0                   
+ lr              | 0.001               
+ metric          | ["NDCG","HR"]       
+ num_neg         | 1                   
+ num_workers     | 5                   
+ optimizer       | Adam                
+ random_seed     | 2019                
+ topk            | [5,10]              
+========================================
+INFO:root:cuda available: True
+INFO:root:# cuda devices: 1
+INFO:root:Load corpus from ../data/Grocery_and_Gourmet_Food/BaseReader.pkl
+INFO:root:#params: 1105634
+INFO:root:FISM(
+  (p_matrix): Embedding(8457, 64)
+  (q_matrix): Embedding(8457, 64)
+  (u_bias): Embedding(14681, 1)
+  (i_bias): Embedding(8457, 1)
+)
+INFO:root:Namespace(model_name='FISM')
+INFO:root:--------------------------------------------- BEGIN: 2021-02-06 10:41:57 ---------------------------------------------
+INFO:root:
+========================================
+ Arguments       | Values               
+========================================
+ batch_size      | 256                 
+ buffer          | 1                   
+ dataset         | Grocery_and_Gourm...
+ dropout         | 0                   
+ early_stop      | 5                   
+ emb_size        | 64                  
+ epoch           | 100                 
+ eval_batch_size | 256                 
+ gpu             | 0                   
+ history_max     | 20                  
+ l2              | 1e-06               
+ load            | 0                   
+ lr              | 0.001               
+ metric          | ["NDCG","HR"]       
+ num_neg         | 1                   
+ num_workers     | 5                   
+ optimizer       | Adam                
+ random_seed     | 2019                
+ topk            | [5,10]              
+========================================
+INFO:root:cuda available: True
+INFO:root:# cuda devices: 1
+INFO:root:Load corpus from ../data/Grocery_and_Gourmet_Food/BaseReader.pkl
+INFO:root:#params: 1105634
+INFO:root:FISM(
+  (p_matrix): Embedding(8457, 64)
+  (q_matrix): Embedding(8457, 64)
+  (u_bias): Embedding(14681, 1)
+  (i_bias): Embedding(8457, 1)
+)
+INFO:root:Namespace(model_name='FISM')
+INFO:root:--------------------------------------------- BEGIN: 2021-02-06 10:43:34 ---------------------------------------------
+INFO:root:
+========================================
+ Arguments       | Values               
+========================================
+ batch_size      | 256                 
+ buffer          | 1                   
+ dataset         | Grocery_and_Gourm...
+ dropout         | 0                   
+ early_stop      | 5                   
+ emb_size        | 64                  
+ epoch           | 100                 
+ eval_batch_size | 256                 
+ gpu             | 0                   
+ history_max     | 20                  
+ l2              | 1e-06               
+ load            | 0                   
+ lr              | 0.001               
+ metric          | ["NDCG","HR"]       
+ num_neg         | 1                   
+ num_workers     | 5                   
+ optimizer       | Adam                
+ random_seed     | 2019                
+ topk            | [5,10]              
+========================================
+INFO:root:cuda available: True
+INFO:root:# cuda devices: 1
+INFO:root:Load corpus from ../data/Grocery_and_Gourmet_Food/BaseReader.pkl
+INFO:root:#params: 1105634
+INFO:root:FISM(
+  (p_matrix): Embedding(8457, 64)
+  (q_matrix): Embedding(8457, 64)
+  (u_bias): Embedding(14681, 1)
+  (i_bias): Embedding(8457, 1)
+)
+INFO:root:Namespace(model_name='FISM')
+INFO:root:--------------------------------------------- BEGIN: 2021-02-06 10:46:18 ---------------------------------------------
+INFO:root:
+========================================
+ Arguments       | Values               
+========================================
+ batch_size      | 256                 
+ buffer          | 1                   
+ dataset         | Grocery_and_Gourm...
+ dropout         | 0                   
+ early_stop      | 5                   
+ emb_size        | 64                  
+ epoch           | 100                 
+ eval_batch_size | 256                 
+ gpu             | 0                   
+ history_max     | 20                  
+ l2              | 1e-06               
+ load            | 0                   
+ lr              | 0.001               
+ metric          | ["NDCG","HR"]       
+ num_neg         | 1                   
+ num_workers     | 5                   
+ optimizer       | Adam                
+ random_seed     | 2019                
+ topk            | [5,10]              
+========================================
+INFO:root:cuda available: True
+INFO:root:# cuda devices: 1
+INFO:root:Load corpus from ../data/Grocery_and_Gourmet_Food/BaseReader.pkl
+INFO:root:#params: 1105634
+INFO:root:FISM(
+  (p_matrix): Embedding(8457, 64)
+  (q_matrix): Embedding(8457, 64)
+  (u_bias): Embedding(14681, 1)
+  (i_bias): Embedding(8457, 1)
+)
+INFO:root:Namespace(model_name='FISM')
+INFO:root:--------------------------------------------- BEGIN: 2021-02-06 10:47:12 ---------------------------------------------
+INFO:root:
+========================================
+ Arguments       | Values               
+========================================
+ batch_size      | 256                 
+ buffer          | 1                   
+ dataset         | Grocery_and_Gourm...
+ dropout         | 0                   
+ early_stop      | 5                   
+ emb_size        | 64                  
+ epoch           | 100                 
+ eval_batch_size | 256                 
+ gpu             | 0                   
+ history_max     | 20                  
+ l2              | 1e-06               
+ load            | 0                   
+ lr              | 0.001               
+ metric          | ["NDCG","HR"]       
+ num_neg         | 1                   
+ num_workers     | 5                   
+ optimizer       | Adam                
+ random_seed     | 2019                
+ topk            | [5,10]              
+========================================
+INFO:root:cuda available: True
+INFO:root:# cuda devices: 1
+INFO:root:Load corpus from ../data/Grocery_and_Gourmet_Food/BaseReader.pkl
+INFO:root:#params: 1105634
+INFO:root:FISM(
+  (p_matrix): Embedding(8457, 64)
+  (q_matrix): Embedding(8457, 64)
+  (u_bias): Embedding(14681, 1)
+  (i_bias): Embedding(8457, 1)
+)
+INFO:root:Namespace(model_name='FISM')
+INFO:root:--------------------------------------------- BEGIN: 2021-02-06 10:47:37 ---------------------------------------------
+INFO:root:
+========================================
+ Arguments       | Values               
+========================================
+ batch_size      | 256                 
+ buffer          | 1                   
+ dataset         | Grocery_and_Gourm...
+ dropout         | 0                   
+ early_stop      | 5                   
+ emb_size        | 64                  
+ epoch           | 100                 
+ eval_batch_size | 256                 
+ gpu             | 0                   
+ history_max     | 20                  
+ l2              | 1e-06               
+ load            | 0                   
+ lr              | 0.001               
+ metric          | ["NDCG","HR"]       
+ num_neg         | 1                   
+ num_workers     | 5                   
+ optimizer       | Adam                
+ random_seed     | 2019                
+ topk            | [5,10]              
+========================================
+INFO:root:cuda available: True
+INFO:root:# cuda devices: 1
+INFO:root:Load corpus from ../data/Grocery_and_Gourmet_Food/BaseReader.pkl
+INFO:root:#params: 1105634
+INFO:root:FISM(
+  (p_matrix): Embedding(8457, 64)
+  (q_matrix): Embedding(8457, 64)
+  (u_bias): Embedding(14681, 1)
+  (i_bias): Embedding(8457, 1)
+)
+INFO:root:Namespace(model_name='FISM')
+INFO:root:--------------------------------------------- BEGIN: 2021-02-06 10:49:05 ---------------------------------------------
+INFO:root:
+========================================
+ Arguments       | Values               
+========================================
+ batch_size      | 256                 
+ buffer          | 1                   
+ dataset         | Grocery_and_Gourm...
+ dropout         | 0                   
+ early_stop      | 5                   
+ emb_size        | 64                  
+ epoch           | 100                 
+ eval_batch_size | 256                 
+ gpu             | 0                   
+ history_max     | 20                  
+ l2              | 1e-06               
+ load            | 0                   
+ lr              | 0.001               
+ metric          | ["NDCG","HR"]       
+ num_neg         | 1                   
+ num_workers     | 5                   
+ optimizer       | Adam                
+ random_seed     | 2019                
+ topk            | [5,10]              
+========================================
+INFO:root:cuda available: True
+INFO:root:# cuda devices: 1
+INFO:root:Load corpus from ../data/Grocery_and_Gourmet_Food/BaseReader.pkl
+INFO:root:#params: 1105634
+INFO:root:FISM(
+  (p_matrix): Embedding(8457, 64)
+  (q_matrix): Embedding(8457, 64)
+  (u_bias): Embedding(14681, 1)
+  (i_bias): Embedding(8457, 1)
+)
+INFO:root:Namespace(model_name='FISM')
+INFO:root:--------------------------------------------- BEGIN: 2021-02-06 10:50:05 ---------------------------------------------
+INFO:root:
+========================================
+ Arguments       | Values               
+========================================
+ batch_size      | 256                 
+ buffer          | 1                   
+ dataset         | Grocery_and_Gourm...
+ dropout         | 0                   
+ early_stop      | 5                   
+ emb_size        | 64                  
+ epoch           | 100                 
+ eval_batch_size | 256                 
+ gpu             | 0                   
+ history_max     | 20                  
+ l2              | 1e-06               
+ load            | 0                   
+ lr              | 0.001               
+ metric          | ["NDCG","HR"]       
+ num_neg         | 1                   
+ num_workers     | 5                   
+ optimizer       | Adam                
+ random_seed     | 2019                
+ topk            | [5,10]              
+========================================
+INFO:root:cuda available: True
+INFO:root:# cuda devices: 1
+INFO:root:Load corpus from ../data/Grocery_and_Gourmet_Food/BaseReader.pkl
+INFO:root:#params: 1105634
+INFO:root:FISM(
+  (p_matrix): Embedding(8457, 64)
+  (q_matrix): Embedding(8457, 64)
+  (u_bias): Embedding(14681, 1)
+  (i_bias): Embedding(8457, 1)
+)
+INFO:root:Namespace(model_name='FISM')
+INFO:root:--------------------------------------------- BEGIN: 2021-02-06 10:50:19 ---------------------------------------------
+INFO:root:
+========================================
+ Arguments       | Values               
+========================================
+ batch_size      | 256                 
+ buffer          | 1                   
+ dataset         | Grocery_and_Gourm...
+ dropout         | 0                   
+ early_stop      | 5                   
+ emb_size        | 64                  
+ epoch           | 100                 
+ eval_batch_size | 256                 
+ gpu             | 0                   
+ history_max     | 20                  
+ l2              | 1e-06               
+ load            | 0                   
+ lr              | 0.001               
+ metric          | ["NDCG","HR"]       
+ num_neg         | 1                   
+ num_workers     | 5                   
+ optimizer       | Adam                
+ random_seed     | 2019                
+ topk            | [5,10]              
+========================================
+INFO:root:cuda available: True
+INFO:root:# cuda devices: 1
+INFO:root:Load corpus from ../data/Grocery_and_Gourmet_Food/BaseReader.pkl
+INFO:root:#params: 1105634
+INFO:root:FISM(
+  (p_matrix): Embedding(8457, 64)
+  (q_matrix): Embedding(8457, 64)
+  (u_bias): Embedding(14681, 1)
+  (i_bias): Embedding(8457, 1)
+)
+INFO:root:Namespace(model_name='FISM')
+INFO:root:--------------------------------------------- BEGIN: 2021-02-06 10:53:01 ---------------------------------------------
+INFO:root:
+========================================
+ Arguments       | Values               
+========================================
+ batch_size      | 256                 
+ buffer          | 1                   
+ dataset         | Grocery_and_Gourm...
+ dropout         | 0                   
+ early_stop      | 5                   
+ emb_size        | 64                  
+ epoch           | 100                 
+ eval_batch_size | 256                 
+ gpu             | 0                   
+ history_max     | 20                  
+ l2              | 1e-06               
+ load            | 0                   
+ lr              | 0.001               
+ metric          | ["NDCG","HR"]       
+ num_neg         | 1                   
+ num_workers     | 5                   
+ optimizer       | Adam                
+ random_seed     | 2019                
+ topk            | [5,10]              
+========================================
+INFO:root:cuda available: True
+INFO:root:# cuda devices: 1
+INFO:root:Load corpus from ../data/Grocery_and_Gourmet_Food/BaseReader.pkl
+INFO:root:#params: 1105634
+INFO:root:FISM(
+  (p_matrix): Embedding(8457, 64)
+  (q_matrix): Embedding(8457, 64)
+  (u_bias): Embedding(14681, 1)
+  (i_bias): Embedding(8457, 1)
+)
+INFO:root:Namespace(model_name='FISM')
+INFO:root:--------------------------------------------- BEGIN: 2021-02-06 10:54:26 ---------------------------------------------
+INFO:root:
+========================================
+ Arguments       | Values               
+========================================
+ batch_size      | 256                 
+ buffer          | 1                   
+ dataset         | Grocery_and_Gourm...
+ dropout         | 0                   
+ early_stop      | 5                   
+ emb_size        | 64                  
+ epoch           | 100                 
+ eval_batch_size | 256                 
+ gpu             | 0                   
+ history_max     | 20                  
+ l2              | 1e-06               
+ load            | 0                   
+ lr              | 0.001               
+ metric          | ["NDCG","HR"]       
+ num_neg         | 1                   
+ num_workers     | 5                   
+ optimizer       | Adam                
+ random_seed     | 2019                
+ topk            | [5,10]              
+========================================
+INFO:root:cuda available: True
+INFO:root:# cuda devices: 1
+INFO:root:Load corpus from ../data/Grocery_and_Gourmet_Food/BaseReader.pkl
+INFO:root:#params: 1105634
+INFO:root:FISM(
+  (p_matrix): Embedding(8457, 64)
+  (q_matrix): Embedding(8457, 64)
+  (u_bias): Embedding(14681, 1)
+  (i_bias): Embedding(8457, 1)
+)
+INFO:root:Namespace(model_name='FISM')
+INFO:root:--------------------------------------------- BEGIN: 2021-02-06 10:55:07 ---------------------------------------------
+INFO:root:
+========================================
+ Arguments       | Values               
+========================================
+ batch_size      | 256                 
+ buffer          | 1                   
+ dataset         | Grocery_and_Gourm...
+ dropout         | 0                   
+ early_stop      | 5                   
+ emb_size        | 64                  
+ epoch           | 100                 
+ eval_batch_size | 256                 
+ gpu             | 0                   
+ history_max     | 20                  
+ l2              | 1e-06               
+ load            | 0                   
+ lr              | 0.001               
+ metric          | ["NDCG","HR"]       
+ num_neg         | 1                   
+ num_workers     | 5                   
+ optimizer       | Adam                
+ random_seed     | 2019                
+ topk            | [5,10]              
+========================================
+INFO:root:cuda available: True
+INFO:root:# cuda devices: 1
+INFO:root:Load corpus from ../data/Grocery_and_Gourmet_Food/BaseReader.pkl
+INFO:root:Namespace(model_name='FISM')
+INFO:root:--------------------------------------------- BEGIN: 2021-02-06 10:55:56 ---------------------------------------------
+INFO:root:
+========================================
+ Arguments       | Values               
+========================================
+ batch_size      | 256                 
+ buffer          | 1                   
+ dataset         | Grocery_and_Gourm...
+ dropout         | 0                   
+ early_stop      | 5                   
+ emb_size        | 64                  
+ epoch           | 100                 
+ eval_batch_size | 256                 
+ gpu             | 0                   
+ history_max     | 20                  
+ l2              | 1e-06               
+ load            | 0                   
+ lr              | 0.001               
+ metric          | ["NDCG","HR"]       
+ num_neg         | 1                   
+ num_workers     | 5                   
+ optimizer       | Adam                
+ random_seed     | 2019                
+ topk            | [5,10]              
+========================================
+INFO:root:cuda available: True
+INFO:root:# cuda devices: 1
+INFO:root:Load corpus from ../data/Grocery_and_Gourmet_Food/BaseReader.pkl
+INFO:root:#params: 1114018
+INFO:root:FISM(
+  (p_matrix): Embedding(8457, 64)
+  (q_matrix): Embedding(8457, 64)
+  (u_bias): Embedding(14681, 1)
+  (i_bias): Embedding(8457, 1)
+  (mlp): ModuleList(
+    (0): Linear(in_features=128, out_features=64, bias=True)
+  )
+  (dropout_layer): Dropout(p=0, inplace=False)
+  (prediction): Linear(in_features=128, out_features=1, bias=False)
+)
+INFO:root:Namespace(model_name='FISM')
+INFO:root:--------------------------------------------- BEGIN: 2021-02-06 10:59:12 ---------------------------------------------
+INFO:root:
+========================================
+ Arguments       | Values               
+========================================
+ batch_size      | 256                 
+ buffer          | 1                   
+ dataset         | Grocery_and_Gourm...
+ dropout         | 0                   
+ early_stop      | 5                   
+ emb_size        | 64                  
+ epoch           | 100                 
+ eval_batch_size | 256                 
+ gpu             | 0                   
+ history_max     | 20                  
+ l2              | 1e-06               
+ load            | 0                   
+ lr              | 0.001               
+ metric          | ["NDCG","HR"]       
+ num_neg         | 1                   
+ num_workers     | 5                   
+ optimizer       | Adam                
+ random_seed     | 2019                
+ topk            | [5,10]              
+========================================
+INFO:root:cuda available: True
+INFO:root:# cuda devices: 1
+INFO:root:Load corpus from ../data/Grocery_and_Gourmet_Food/BaseReader.pkl
+INFO:root:#params: 1105634
+INFO:root:FISM(
+  (p_matrix): Embedding(8457, 64)
+  (q_matrix): Embedding(8457, 64)
+  (u_bias): Embedding(14681, 1)
+  (i_bias): Embedding(8457, 1)
+)
+INFO:root:Namespace(model_name='FISM')
+INFO:root:--------------------------------------------- BEGIN: 2021-02-06 15:32:56 ---------------------------------------------
+INFO:root:
+========================================
+ Arguments       | Values               
+========================================
+ batch_size      | 256                 
+ buffer          | 1                   
+ dataset         | Grocery_and_Gourm...
+ dropout         | 0                   
+ early_stop      | 5                   
+ emb_size        | 64                  
+ epoch           | 100                 
+ eval_batch_size | 256                 
+ gpu             | 0                   
+ history_max     | 20                  
+ l2              | 1e-06               
+ load            | 0                   
+ lr              | 0.001               
+ metric          | ["NDCG","HR"]       
+ num_neg         | 1                   
+ num_workers     | 5                   
+ optimizer       | Adam                
+ random_seed     | 2019                
+ topk            | [5,10]              
+========================================
+INFO:root:cuda available: True
+INFO:root:# cuda devices: 1
+INFO:root:Load corpus from ../data/Grocery_and_Gourmet_Food/BaseReader.pkl
+INFO:root:#params: 1105634
+INFO:root:FISM(
+  (p_matrix): Embedding(8457, 64)
+  (q_matrix): Embedding(8457, 64)
+  (u_bias): Embedding(14681, 1)
+  (i_bias): Embedding(8457, 1)
+)
+INFO:root:Test Before Training: (HR@10:0.2867,HR@5:0.1852,NDCG@10:0.1571,NDCG@5:0.1246)
+INFO:root:Optimizer: Adam
+INFO:root:Namespace(model_name='FISM')
+INFO:root:--------------------------------------------- BEGIN: 2021-02-06 15:33:19 ---------------------------------------------
+INFO:root:
+========================================
+ Arguments       | Values               
+========================================
+ batch_size      | 256                 
+ buffer          | 1                   
+ dataset         | Grocery_and_Gourm...
+ dropout         | 0                   
+ early_stop      | 5                   
+ emb_size        | 64                  
+ epoch           | 100                 
+ eval_batch_size | 256                 
+ gpu             | 0                   
+ history_max     | 20                  
+ l2              | 1e-06               
+ load            | 0                   
+ lr              | 0.001               
+ metric          | ["NDCG","HR"]       
+ num_neg         | 1                   
+ num_workers     | 5                   
+ optimizer       | Adam                
+ random_seed     | 2019                
+ topk            | [5,10]              
+========================================
+INFO:root:cuda available: True
+INFO:root:# cuda devices: 1
+INFO:root:Load corpus from ../data/Grocery_and_Gourmet_Food/BaseReader.pkl
+INFO:root:#params: 1105634
+INFO:root:FISM(
+  (p_matrix): Embedding(8457, 64)
+  (q_matrix): Embedding(8457, 64)
+  (u_bias): Embedding(14681, 1)
+  (i_bias): Embedding(8457, 1)
+)
+INFO:root:Test Before Training: (HR@10:0.2867,HR@5:0.1852,NDCG@10:0.1571,NDCG@5:0.1246)
+INFO:root:Optimizer: Adam
+INFO:root:Namespace(model_name='FISM')
+INFO:root:--------------------------------------------- BEGIN: 2021-02-06 20:02:37 ---------------------------------------------
+INFO:root:
+========================================
+ Arguments       | Values               
+========================================
+ batch_size      | 256                 
+ buffer          | 1                   
+ dataset         | Grocery_and_Gourm...
+ dropout         | 0                   
+ early_stop      | 5                   
+ emb_size        | 64                  
+ epoch           | 100                 
+ eval_batch_size | 256                 
+ gpu             | 0                   
+ history_max     | 20                  
+ l2              | 1e-06               
+ load            | 0                   
+ lr              | 0.001               
+ metric          | ["NDCG","HR"]       
+ num_neg         | 1                   
+ num_workers     | 5                   
+ optimizer       | Adam                
+ random_seed     | 2019                
+ topk            | [5,10]              
+========================================
+INFO:root:cuda available: True
+INFO:root:# cuda devices: 1
+INFO:root:Load corpus from ../data/Grocery_and_Gourmet_Food/BaseReader.pkl
+INFO:root:#params: 1105634
+INFO:root:FISM(
+  (p_matrix): Embedding(8457, 64)
+  (q_matrix): Embedding(8457, 64)
+  (u_bias): Embedding(14681, 1)
+  (i_bias): Embedding(8457, 1)
+)
+INFO:root:Namespace(model_name='FISM')
+INFO:root:--------------------------------------------- BEGIN: 2021-02-06 20:02:54 ---------------------------------------------
+INFO:root:
+========================================
+ Arguments       | Values               
+========================================
+ batch_size      | 256                 
+ buffer          | 1                   
+ dataset         | Grocery_and_Gourm...
+ dropout         | 0                   
+ early_stop      | 5                   
+ emb_size        | 64                  
+ epoch           | 100                 
+ eval_batch_size | 256                 
+ gpu             | 0                   
+ history_max     | 20                  
+ l2              | 1e-06               
+ load            | 0                   
+ lr              | 0.001               
+ metric          | ["NDCG","HR"]       
+ num_neg         | 1                   
+ num_workers     | 5                   
+ optimizer       | Adam                
+ random_seed     | 2019                
+ topk            | [5,10]              
+========================================
+INFO:root:cuda available: True
+INFO:root:# cuda devices: 1
+INFO:root:Load corpus from ../data/Grocery_and_Gourmet_Food/BaseReader.pkl
+INFO:root:#params: 1105634
+INFO:root:FISM(
+  (p_matrix): Embedding(8457, 64)
+  (q_matrix): Embedding(8457, 64)
+  (u_bias): Embedding(14681, 1)
+  (i_bias): Embedding(8457, 1)
+)
+INFO:root:Namespace(model_name='FISM')
+INFO:root:--------------------------------------------- BEGIN: 2021-02-06 20:05:12 ---------------------------------------------
+INFO:root:
+========================================
+ Arguments       | Values               
+========================================
+ batch_size      | 256                 
+ buffer          | 1                   
+ dataset         | Grocery_and_Gourm...
+ dropout         | 0                   
+ early_stop      | 5                   
+ emb_size        | 64                  
+ epoch           | 100                 
+ eval_batch_size | 256                 
+ gpu             | 0                   
+ history_max     | 20                  
+ l2              | 1e-06               
+ load            | 0                   
+ lr              | 0.001               
+ metric          | ["NDCG","HR"]       
+ num_neg         | 1                   
+ num_workers     | 5                   
+ optimizer       | Adam                
+ random_seed     | 2019                
+ topk            | [5,10]              
+========================================
+INFO:root:cuda available: True
+INFO:root:# cuda devices: 1
+INFO:root:Load corpus from ../data/Grocery_and_Gourmet_Food/BaseReader.pkl
+INFO:root:#params: 1105634
+INFO:root:FISM(
+  (p_matrix): Embedding(8457, 64)
+  (q_matrix): Embedding(8457, 64)
+  (u_bias): Embedding(14681, 1)
+  (i_bias): Embedding(8457, 1)
+)
+INFO:root:Namespace(model_name='FISM')
+INFO:root:--------------------------------------------- BEGIN: 2021-02-06 20:09:11 ---------------------------------------------
+INFO:root:
+========================================
+ Arguments       | Values               
+========================================
+ batch_size      | 256                 
+ buffer          | 1                   
+ dataset         | Grocery_and_Gourm...
+ dropout         | 0                   
+ early_stop      | 5                   
+ emb_size        | 64                  
+ epoch           | 100                 
+ eval_batch_size | 256                 
+ gpu             | 0                   
+ history_max     | 20                  
+ l2              | 1e-06               
+ load            | 0                   
+ lr              | 0.001               
+ metric          | ["NDCG","HR"]       
+ num_neg         | 1                   
+ num_workers     | 5                   
+ optimizer       | Adam                
+ random_seed     | 2019                
+ topk            | [5,10]              
+========================================
+INFO:root:cuda available: True
+INFO:root:# cuda devices: 1
+INFO:root:Load corpus from ../data/Grocery_and_Gourmet_Food/BaseReader.pkl
+INFO:root:#params: 1105634
+INFO:root:FISM(
+  (p_matrix): Embedding(8457, 64)
+  (q_matrix): Embedding(8457, 64)
+  (u_bias): Embedding(14681, 1)
+  (i_bias): Embedding(8457, 1)
+)
+INFO:root:Namespace(model_name='FISM')
+INFO:root:--------------------------------------------- BEGIN: 2021-02-06 20:14:57 ---------------------------------------------
+INFO:root:
+========================================
+ Arguments       | Values               
+========================================
+ batch_size      | 256                 
+ buffer          | 1                   
+ dataset         | Grocery_and_Gourm...
+ dropout         | 0                   
+ early_stop      | 5                   
+ emb_size        | 64                  
+ epoch           | 100                 
+ eval_batch_size | 256                 
+ gpu             | 0                   
+ history_max     | 20                  
+ l2              | 1e-06               
+ load            | 0                   
+ lr              | 0.001               
+ metric          | ["NDCG","HR"]       
+ num_neg         | 1                   
+ num_workers     | 5                   
+ optimizer       | Adam                
+ random_seed     | 2019                
+ topk            | [5,10]              
+========================================
+INFO:root:cuda available: True
+INFO:root:# cuda devices: 1
+INFO:root:Load corpus from ../data/Grocery_and_Gourmet_Food/BaseReader.pkl
+INFO:root:#params: 1105634
+INFO:root:FISM(
+  (p_matrix): Embedding(8457, 64)
+  (q_matrix): Embedding(8457, 64)
+  (u_bias): Embedding(14681, 1)
+  (i_bias): Embedding(8457, 1)
+)
+INFO:root:Namespace(model_name='FISM')
+INFO:root:--------------------------------------------- BEGIN: 2021-02-06 20:16:03 ---------------------------------------------
+INFO:root:
+========================================
+ Arguments       | Values               
+========================================
+ batch_size      | 256                 
+ buffer          | 1                   
+ dataset         | Grocery_and_Gourm...
+ dropout         | 0                   
+ early_stop      | 5                   
+ emb_size        | 64                  
+ epoch           | 100                 
+ eval_batch_size | 256                 
+ gpu             | 0                   
+ history_max     | 20                  
+ l2              | 1e-06               
+ load            | 0                   
+ lr              | 0.001               
+ metric          | ["NDCG","HR"]       
+ num_neg         | 1                   
+ num_workers     | 5                   
+ optimizer       | Adam                
+ random_seed     | 2019                
+ topk            | [5,10]              
+========================================
+INFO:root:cuda available: True
+INFO:root:# cuda devices: 1
+INFO:root:Load corpus from ../data/Grocery_and_Gourmet_Food/BaseReader.pkl
+INFO:root:#params: 1105634
+INFO:root:FISM(
+  (p_matrix): Embedding(8457, 64)
+  (q_matrix): Embedding(8457, 64)
+  (u_bias): Embedding(14681, 1)
+  (i_bias): Embedding(8457, 1)
+)
+INFO:root:Namespace(model_name='FISM')
+INFO:root:--------------------------------------------- BEGIN: 2021-02-06 20:16:40 ---------------------------------------------
+INFO:root:
+========================================
+ Arguments       | Values               
+========================================
+ batch_size      | 256                 
+ buffer          | 1                   
+ dataset         | Grocery_and_Gourm...
+ dropout         | 0                   
+ early_stop      | 5                   
+ emb_size        | 64                  
+ epoch           | 100                 
+ eval_batch_size | 256                 
+ gpu             | 0                   
+ history_max     | 20                  
+ l2              | 1e-06               
+ load            | 0                   
+ lr              | 0.001               
+ metric          | ["NDCG","HR"]       
+ num_neg         | 1                   
+ num_workers     | 5                   
+ optimizer       | Adam                
+ random_seed     | 2019                
+ topk            | [5,10]              
+========================================
+INFO:root:cuda available: True
+INFO:root:# cuda devices: 1
+INFO:root:Load corpus from ../data/Grocery_and_Gourmet_Food/BaseReader.pkl
+INFO:root:#params: 1105634
+INFO:root:FISM(
+  (p_matrix): Embedding(8457, 64)
+  (q_matrix): Embedding(8457, 64)
+  (u_bias): Embedding(14681, 1)
+  (i_bias): Embedding(8457, 1)
+)
+INFO:root:Namespace(model_name='FISM')
+INFO:root:--------------------------------------------- BEGIN: 2021-02-06 20:18:06 ---------------------------------------------
+INFO:root:
+========================================
+ Arguments       | Values               
+========================================
+ batch_size      | 256                 
+ buffer          | 1                   
+ dataset         | Grocery_and_Gourm...
+ dropout         | 0                   
+ early_stop      | 5                   
+ emb_size        | 64                  
+ epoch           | 100                 
+ eval_batch_size | 256                 
+ gpu             | 0                   
+ history_max     | 20                  
+ l2              | 1e-06               
+ load            | 0                   
+ lr              | 0.001               
+ metric          | ["NDCG","HR"]       
+ num_neg         | 1                   
+ num_workers     | 1                   
+ optimizer       | Adam                
+ random_seed     | 2019                
+ topk            | [5,10]              
+========================================
+INFO:root:cuda available: True
+INFO:root:# cuda devices: 1
+INFO:root:Load corpus from ../data/Grocery_and_Gourmet_Food/BaseReader.pkl
+INFO:root:#params: 1105634
+INFO:root:FISM(
+  (p_matrix): Embedding(8457, 64)
+  (q_matrix): Embedding(8457, 64)
+  (u_bias): Embedding(14681, 1)
+  (i_bias): Embedding(8457, 1)
+)
+INFO:root:Namespace(model_name='FISM')
+INFO:root:--------------------------------------------- BEGIN: 2021-02-06 20:20:22 ---------------------------------------------
+INFO:root:
+========================================
+ Arguments       | Values               
+========================================
+ batch_size      | 256                 
+ buffer          | 1                   
+ dataset         | Grocery_and_Gourm...
+ dropout         | 0                   
+ early_stop      | 5                   
+ emb_size        | 64                  
+ epoch           | 100                 
+ eval_batch_size | 256                 
+ gpu             | 0                   
+ history_max     | 20                  
+ l2              | 1e-06               
+ load            | 0                   
+ lr              | 0.001               
+ metric          | ["NDCG","HR"]       
+ num_neg         | 1                   
+ num_workers     | 5                   
+ optimizer       | Adam                
+ random_seed     | 2019                
+ topk            | [5,10]              
+========================================
+INFO:root:cuda available: True
+INFO:root:# cuda devices: 1
+INFO:root:Load corpus from ../data/Grocery_and_Gourmet_Food/BaseReader.pkl
+INFO:root:#params: 1105634
+INFO:root:FISM(
+  (p_matrix): Embedding(8457, 64)
+  (q_matrix): Embedding(8457, 64)
+  (u_bias): Embedding(14681, 1)
+  (i_bias): Embedding(8457, 1)
+)
+INFO:root:Namespace(model_name='FISM')
+INFO:root:--------------------------------------------- BEGIN: 2021-02-06 20:21:21 ---------------------------------------------
+INFO:root:
+========================================
+ Arguments       | Values               
+========================================
+ batch_size      | 256                 
+ buffer          | 1                   
+ dataset         | Grocery_and_Gourm...
+ dropout         | 0                   
+ early_stop      | 5                   
+ emb_size        | 64                  
+ epoch           | 100                 
+ eval_batch_size | 256                 
+ gpu             | 0                   
+ history_max     | 20                  
+ l2              | 1e-06               
+ load            | 0                   
+ lr              | 0.001               
+ metric          | ["NDCG","HR"]       
+ num_neg         | 1                   
+ num_workers     | 5                   
+ optimizer       | Adam                
+ random_seed     | 2019                
+ topk            | [5,10]              
+========================================
+INFO:root:cuda available: True
+INFO:root:# cuda devices: 1
+INFO:root:Load corpus from ../data/Grocery_and_Gourmet_Food/BaseReader.pkl
+INFO:root:#params: 1105634
+INFO:root:FISM(
+  (p_matrix): Embedding(8457, 64)
+  (q_matrix): Embedding(8457, 64)
+  (u_bias): Embedding(14681, 1)
+  (i_bias): Embedding(8457, 1)
+)
+INFO:root:Namespace(model_name='FISM')
+INFO:root:--------------------------------------------- BEGIN: 2021-02-06 20:34:14 ---------------------------------------------
+INFO:root:
+========================================
+ Arguments       | Values               
+========================================
+ batch_size      | 256                 
+ buffer          | 1                   
+ dataset         | Grocery_and_Gourm...
+ dropout         | 0                   
+ early_stop      | 5                   
+ emb_size        | 64                  
+ epoch           | 100                 
+ eval_batch_size | 256                 
+ gpu             | 0                   
+ history_max     | 20                  
+ l2              | 1e-06               
+ load            | 0                   
+ lr              | 0.001               
+ metric          | ["NDCG","HR"]       
+ num_neg         | 1                   
+ num_workers     | 5                   
+ optimizer       | Adam                
+ random_seed     | 2019                
+ topk            | [5,10]              
+========================================
+INFO:root:cuda available: True
+INFO:root:# cuda devices: 1
+INFO:root:Load corpus from ../data/Grocery_and_Gourmet_Food/BaseReader.pkl
+INFO:root:#params: 1105634
+INFO:root:FISM(
+  (p_matrix): Embedding(8457, 64)
+  (q_matrix): Embedding(8457, 64)
+  (u_bias): Embedding(14681, 1)
+  (i_bias): Embedding(8457, 1)
+)
+INFO:root:Namespace(model_name='FISM')
+INFO:root:--------------------------------------------- BEGIN: 2021-02-06 20:35:02 ---------------------------------------------
+INFO:root:
+========================================
+ Arguments       | Values               
+========================================
+ batch_size      | 256                 
+ buffer          | 1                   
+ dataset         | Grocery_and_Gourm...
+ dropout         | 0                   
+ early_stop      | 5                   
+ emb_size        | 64                  
+ epoch           | 100                 
+ eval_batch_size | 256                 
+ gpu             | 0                   
+ history_max     | 20                  
+ l2              | 1e-06               
+ load            | 0                   
+ lr              | 0.001               
+ metric          | ["NDCG","HR"]       
+ num_neg         | 1                   
+ num_workers     | 5                   
+ optimizer       | Adam                
+ random_seed     | 2019                
+ topk            | [5,10]              
+========================================
+INFO:root:cuda available: True
+INFO:root:# cuda devices: 1
+INFO:root:Load corpus from ../data/Grocery_and_Gourmet_Food/BaseReader.pkl
+INFO:root:#params: 1105634
+INFO:root:FISM(
+  (p_matrix): Embedding(8457, 64)
+  (q_matrix): Embedding(8457, 64)
+  (u_bias): Embedding(14681, 1)
+  (i_bias): Embedding(8457, 1)
+)
+INFO:root:Namespace(model_name='FISM')
+INFO:root:--------------------------------------------- BEGIN: 2021-02-06 20:40:59 ---------------------------------------------
+INFO:root:
+========================================
+ Arguments       | Values               
+========================================
+ batch_size      | 256                 
+ buffer          | 1                   
+ dataset         | Grocery_and_Gourm...
+ dropout         | 0                   
+ early_stop      | 5                   
+ emb_size        | 64                  
+ epoch           | 100                 
+ eval_batch_size | 256                 
+ gpu             | 0                   
+ history_max     | 20                  
+ l2              | 1e-06               
+ load            | 0                   
+ lr              | 0.001               
+ metric          | ["NDCG","HR"]       
+ num_neg         | 1                   
+ num_workers     | 5                   
+ optimizer       | Adam                
+ random_seed     | 2019                
+ topk            | [5,10]              
+========================================
+INFO:root:cuda available: True
+INFO:root:# cuda devices: 1
+INFO:root:Load corpus from ../data/Grocery_and_Gourmet_Food/BaseReader.pkl
+INFO:root:#params: 1105634
+INFO:root:FISM(
+  (p_matrix): Embedding(8457, 64)
+  (q_matrix): Embedding(8457, 64)
+  (u_bias): Embedding(14681, 1)
+  (i_bias): Embedding(8457, 1)
+)
+INFO:root:Namespace(model_name='FISM')
+INFO:root:--------------------------------------------- BEGIN: 2021-02-06 20:41:56 ---------------------------------------------
+INFO:root:
+========================================
+ Arguments       | Values               
+========================================
+ batch_size      | 256                 
+ buffer          | 1                   
+ dataset         | Grocery_and_Gourm...
+ dropout         | 0                   
+ early_stop      | 5                   
+ emb_size        | 64                  
+ epoch           | 100                 
+ eval_batch_size | 256                 
+ gpu             | 0                   
+ history_max     | 20                  
+ l2              | 1e-06               
+ load            | 0                   
+ lr              | 0.001               
+ metric          | ["NDCG","HR"]       
+ num_neg         | 1                   
+ num_workers     | 5                   
+ optimizer       | Adam                
+ random_seed     | 2019                
+ topk            | [5,10]              
+========================================
+INFO:root:cuda available: True
+INFO:root:# cuda devices: 1
+INFO:root:Load corpus from ../data/Grocery_and_Gourmet_Food/BaseReader.pkl
+INFO:root:#params: 1105634
+INFO:root:FISM(
+  (p_matrix): Embedding(8457, 64)
+  (q_matrix): Embedding(8457, 64)
+  (u_bias): Embedding(14681, 1)
+  (i_bias): Embedding(8457, 1)
+)
+INFO:root:Namespace(model_name='FISM')
+INFO:root:--------------------------------------------- BEGIN: 2021-02-06 20:42:14 ---------------------------------------------
+INFO:root:
+========================================
+ Arguments       | Values               
+========================================
+ batch_size      | 256                 
+ buffer          | 1                   
+ dataset         | Grocery_and_Gourm...
+ dropout         | 0                   
+ early_stop      | 5                   
+ emb_size        | 64                  
+ epoch           | 100                 
+ eval_batch_size | 256                 
+ gpu             | 0                   
+ history_max     | 20                  
+ l2              | 1e-06               
+ load            | 0                   
+ lr              | 0.001               
+ metric          | ["NDCG","HR"]       
+ num_neg         | 1                   
+ num_workers     | 5                   
+ optimizer       | Adam                
+ random_seed     | 2019                
+ topk            | [5,10]              
+========================================
+INFO:root:cuda available: True
+INFO:root:# cuda devices: 1
+INFO:root:Load corpus from ../data/Grocery_and_Gourmet_Food/BaseReader.pkl
+INFO:root:#params: 1105634
+INFO:root:FISM(
+  (p_matrix): Embedding(8457, 64)
+  (q_matrix): Embedding(8457, 64)
+  (u_bias): Embedding(14681, 1)
+  (i_bias): Embedding(8457, 1)
+)
+INFO:root:Namespace(model_name='FISM')
+INFO:root:--------------------------------------------- BEGIN: 2021-02-06 20:43:56 ---------------------------------------------
+INFO:root:
+========================================
+ Arguments       | Values               
+========================================
+ batch_size      | 256                 
+ buffer          | 1                   
+ dataset         | Grocery_and_Gourm...
+ dropout         | 0                   
+ early_stop      | 5                   
+ emb_size        | 64                  
+ epoch           | 100                 
+ eval_batch_size | 256                 
+ gpu             | 0                   
+ history_max     | 20                  
+ l2              | 1e-06               
+ load            | 0                   
+ lr              | 0.001               
+ metric          | ["NDCG","HR"]       
+ num_neg         | 1                   
+ num_workers     | 5                   
+ optimizer       | Adam                
+ random_seed     | 2019                
+ topk            | [5,10]              
+========================================
+INFO:root:cuda available: True
+INFO:root:# cuda devices: 1
+INFO:root:Load corpus from ../data/Grocery_and_Gourmet_Food/BaseReader.pkl
+INFO:root:#params: 1105634
+INFO:root:FISM(
+  (p_matrix): Embedding(8457, 64)
+  (q_matrix): Embedding(8457, 64)
+  (u_bias): Embedding(14681, 1)
+  (i_bias): Embedding(8457, 1)
+)
+INFO:root:Namespace(model_name='FISM')
+INFO:root:--------------------------------------------- BEGIN: 2021-02-06 20:44:49 ---------------------------------------------
+INFO:root:
+========================================
+ Arguments       | Values               
+========================================
+ batch_size      | 256                 
+ buffer          | 1                   
+ dataset         | Grocery_and_Gourm...
+ dropout         | 0                   
+ early_stop      | 5                   
+ emb_size        | 64                  
+ epoch           | 100                 
+ eval_batch_size | 256                 
+ gpu             | 0                   
+ history_max     | 20                  
+ l2              | 1e-06               
+ load            | 0                   
+ lr              | 0.001               
+ metric          | ["NDCG","HR"]       
+ num_neg         | 1                   
+ num_workers     | 5                   
+ optimizer       | Adam                
+ random_seed     | 2019                
+ topk            | [5,10]              
+========================================
+INFO:root:cuda available: True
+INFO:root:# cuda devices: 1
+INFO:root:Load corpus from ../data/Grocery_and_Gourmet_Food/BaseReader.pkl
+INFO:root:#params: 1105634
+INFO:root:FISM(
+  (p_matrix): Embedding(8457, 64)
+  (q_matrix): Embedding(8457, 64)
+  (u_bias): Embedding(14681, 1)
+  (i_bias): Embedding(8457, 1)
+)
+INFO:root:Namespace(model_name='FISM')
+INFO:root:--------------------------------------------- BEGIN: 2021-02-06 20:46:26 ---------------------------------------------
+INFO:root:
+========================================
+ Arguments       | Values               
+========================================
+ batch_size      | 256                 
+ buffer          | 1                   
+ dataset         | Grocery_and_Gourm...
+ dropout         | 0                   
+ early_stop      | 5                   
+ emb_size        | 64                  
+ epoch           | 100                 
+ eval_batch_size | 256                 
+ gpu             | 0                   
+ history_max     | 20                  
+ l2              | 1e-06               
+ load            | 0                   
+ lr              | 0.001               
+ metric          | ["NDCG","HR"]       
+ num_neg         | 1                   
+ num_workers     | 5                   
+ optimizer       | Adam                
+ random_seed     | 2019                
+ topk            | [5,10]              
+========================================
+INFO:root:cuda available: True
+INFO:root:# cuda devices: 1
+INFO:root:Load corpus from ../data/Grocery_and_Gourmet_Food/BaseReader.pkl
+INFO:root:#params: 1105634
+INFO:root:FISM(
+  (p_matrix): Embedding(8457, 64)
+  (q_matrix): Embedding(8457, 64)
+  (u_bias): Embedding(14681, 1)
+  (i_bias): Embedding(8457, 1)
+)
+INFO:root:Namespace(model_name='FISM')
+INFO:root:--------------------------------------------- BEGIN: 2021-02-06 20:49:17 ---------------------------------------------
+INFO:root:
+========================================
+ Arguments       | Values               
+========================================
+ batch_size      | 256                 
+ buffer          | 1                   
+ dataset         | Grocery_and_Gourm...
+ dropout         | 0                   
+ early_stop      | 5                   
+ emb_size        | 64                  
+ epoch           | 100                 
+ eval_batch_size | 256                 
+ gpu             | 0                   
+ history_max     | 20                  
+ l2              | 1e-06               
+ load            | 0                   
+ lr              | 0.001               
+ metric          | ["NDCG","HR"]       
+ num_neg         | 1                   
+ num_workers     | 5                   
+ optimizer       | Adam                
+ random_seed     | 2019                
+ topk            | [5,10]              
+========================================
+INFO:root:cuda available: True
+INFO:root:# cuda devices: 1
+INFO:root:Load corpus from ../data/Grocery_and_Gourmet_Food/BaseReader.pkl
+INFO:root:#params: 1105634
+INFO:root:FISM(
+  (p_matrix): Embedding(8457, 64)
+  (q_matrix): Embedding(8457, 64)
+  (u_bias): Embedding(14681, 1)
+  (i_bias): Embedding(8457, 1)
+)
+INFO:root:Namespace(model_name='FISM')
+INFO:root:--------------------------------------------- BEGIN: 2021-02-06 20:49:43 ---------------------------------------------
+INFO:root:
+========================================
+ Arguments       | Values               
+========================================
+ batch_size      | 256                 
+ buffer          | 1                   
+ dataset         | Grocery_and_Gourm...
+ dropout         | 0                   
+ early_stop      | 5                   
+ emb_size        | 64                  
+ epoch           | 100                 
+ eval_batch_size | 256                 
+ gpu             | 0                   
+ history_max     | 20                  
+ l2              | 1e-06               
+ load            | 0                   
+ lr              | 0.001               
+ metric          | ["NDCG","HR"]       
+ num_neg         | 1                   
+ num_workers     | 5                   
+ optimizer       | Adam                
+ random_seed     | 2019                
+ topk            | [5,10]              
+========================================
+INFO:root:cuda available: True
+INFO:root:# cuda devices: 1
+INFO:root:Load corpus from ../data/Grocery_and_Gourmet_Food/BaseReader.pkl
+INFO:root:#params: 1105634
+INFO:root:FISM(
+  (p_matrix): Embedding(8457, 64)
+  (q_matrix): Embedding(8457, 64)
+  (u_bias): Embedding(14681, 1)
+  (i_bias): Embedding(8457, 1)
+)
+INFO:root:Namespace(model_name='FISM')
+INFO:root:--------------------------------------------- BEGIN: 2021-02-06 20:50:33 ---------------------------------------------
+INFO:root:
+========================================
+ Arguments       | Values               
+========================================
+ batch_size      | 256                 
+ buffer          | 1                   
+ dataset         | Grocery_and_Gourm...
+ dropout         | 0                   
+ early_stop      | 5                   
+ emb_size        | 64                  
+ epoch           | 100                 
+ eval_batch_size | 256                 
+ gpu             | 0                   
+ history_max     | 20                  
+ l2              | 1e-06               
+ load            | 0                   
+ lr              | 0.001               
+ metric          | ["NDCG","HR"]       
+ num_neg         | 1                   
+ num_workers     | 5                   
+ optimizer       | Adam                
+ random_seed     | 2019                
+ topk            | [5,10]              
+========================================
+INFO:root:cuda available: True
+INFO:root:# cuda devices: 1
+INFO:root:Load corpus from ../data/Grocery_and_Gourmet_Food/BaseReader.pkl
+INFO:root:#params: 1105634
+INFO:root:FISM(
+  (p_matrix): Embedding(8457, 64)
+  (q_matrix): Embedding(8457, 64)
+  (u_bias): Embedding(14681, 1)
+  (i_bias): Embedding(8457, 1)
+)
+INFO:root:Namespace(model_name='FISM')
+INFO:root:--------------------------------------------- BEGIN: 2021-02-06 20:51:29 ---------------------------------------------
+INFO:root:
+========================================
+ Arguments       | Values               
+========================================
+ batch_size      | 256                 
+ buffer          | 1                   
+ dataset         | Grocery_and_Gourm...
+ dropout         | 0                   
+ early_stop      | 5                   
+ emb_size        | 64                  
+ epoch           | 100                 
+ eval_batch_size | 256                 
+ gpu             | 0                   
+ history_max     | 20                  
+ l2              | 1e-06               
+ load            | 0                   
+ lr              | 0.001               
+ metric          | ["NDCG","HR"]       
+ num_neg         | 1                   
+ num_workers     | 5                   
+ optimizer       | Adam                
+ random_seed     | 2019                
+ topk            | [5,10]              
+========================================
+INFO:root:cuda available: True
+INFO:root:# cuda devices: 1
+INFO:root:Load corpus from ../data/Grocery_and_Gourmet_Food/BaseReader.pkl
+INFO:root:#params: 1105634
+INFO:root:FISM(
+  (p_matrix): Embedding(8457, 64)
+  (q_matrix): Embedding(8457, 64)
+  (u_bias): Embedding(14681, 1)
+  (i_bias): Embedding(8457, 1)
+)
+INFO:root:Namespace(model_name='FISM')
+INFO:root:--------------------------------------------- BEGIN: 2021-02-06 20:52:22 ---------------------------------------------
+INFO:root:
+========================================
+ Arguments       | Values               
+========================================
+ batch_size      | 256                 
+ buffer          | 1                   
+ dataset         | Grocery_and_Gourm...
+ dropout         | 0                   
+ early_stop      | 5                   
+ emb_size        | 64                  
+ epoch           | 100                 
+ eval_batch_size | 256                 
+ gpu             | 0                   
+ history_max     | 20                  
+ l2              | 1e-06               
+ load            | 0                   
+ lr              | 0.001               
+ metric          | ["NDCG","HR"]       
+ num_neg         | 1                   
+ num_workers     | 5                   
+ optimizer       | Adam                
+ random_seed     | 2019                
+ topk            | [5,10]              
+========================================
+INFO:root:cuda available: True
+INFO:root:# cuda devices: 1
+INFO:root:Load corpus from ../data/Grocery_and_Gourmet_Food/BaseReader.pkl
+INFO:root:#params: 1105634
+INFO:root:FISM(
+  (p_matrix): Embedding(8457, 64)
+  (q_matrix): Embedding(8457, 64)
+  (u_bias): Embedding(14681, 1)
+  (i_bias): Embedding(8457, 1)
+)
+INFO:root:Namespace(model_name='FISM')
+INFO:root:--------------------------------------------- BEGIN: 2021-02-06 20:52:55 ---------------------------------------------
+INFO:root:
+========================================
+ Arguments       | Values               
+========================================
+ batch_size      | 256                 
+ buffer          | 1                   
+ dataset         | Grocery_and_Gourm...
+ dropout         | 0                   
+ early_stop      | 5                   
+ emb_size        | 64                  
+ epoch           | 100                 
+ eval_batch_size | 256                 
+ gpu             | 0                   
+ history_max     | 20                  
+ l2              | 1e-06               
+ load            | 0                   
+ lr              | 0.001               
+ metric          | ["NDCG","HR"]       
+ num_neg         | 1                   
+ num_workers     | 5                   
+ optimizer       | Adam                
+ random_seed     | 2019                
+ topk            | [5,10]              
+========================================
+INFO:root:cuda available: True
+INFO:root:# cuda devices: 1
+INFO:root:Load corpus from ../data/Grocery_and_Gourmet_Food/BaseReader.pkl
+INFO:root:#params: 1105634
+INFO:root:FISM(
+  (p_matrix): Embedding(8457, 64)
+  (q_matrix): Embedding(8457, 64)
+  (u_bias): Embedding(14681, 1)
+  (i_bias): Embedding(8457, 1)
+)
+INFO:root:Namespace(model_name='FISM')
+INFO:root:--------------------------------------------- BEGIN: 2021-02-06 20:53:14 ---------------------------------------------
+INFO:root:
+========================================
+ Arguments       | Values               
+========================================
+ batch_size      | 256                 
+ buffer          | 1                   
+ dataset         | Grocery_and_Gourm...
+ dropout         | 0                   
+ early_stop      | 5                   
+ emb_size        | 64                  
+ epoch           | 100                 
+ eval_batch_size | 256                 
+ gpu             | 0                   
+ history_max     | 20                  
+ l2              | 1e-06               
+ load            | 0                   
+ lr              | 0.001               
+ metric          | ["NDCG","HR"]       
+ num_neg         | 1                   
+ num_workers     | 5                   
+ optimizer       | Adam                
+ random_seed     | 2019                
+ topk            | [5,10]              
+========================================
+INFO:root:cuda available: True
+INFO:root:# cuda devices: 1
+INFO:root:Load corpus from ../data/Grocery_and_Gourmet_Food/BaseReader.pkl
+INFO:root:#params: 1105634
+INFO:root:FISM(
+  (p_matrix): Embedding(8457, 64)
+  (q_matrix): Embedding(8457, 64)
+  (u_bias): Embedding(14681, 1)
+  (i_bias): Embedding(8457, 1)
+)
+INFO:root:Namespace(model_name='FISM')
+INFO:root:--------------------------------------------- BEGIN: 2021-02-06 20:54:33 ---------------------------------------------
+INFO:root:
+========================================
+ Arguments       | Values               
+========================================
+ batch_size      | 256                 
+ buffer          | 1                   
+ dataset         | Grocery_and_Gourm...
+ dropout         | 0                   
+ early_stop      | 5                   
+ emb_size        | 64                  
+ epoch           | 100                 
+ eval_batch_size | 256                 
+ gpu             | 0                   
+ history_max     | 20                  
+ l2              | 1e-06               
+ load            | 0                   
+ lr              | 0.001               
+ metric          | ["NDCG","HR"]       
+ num_neg         | 1                   
+ num_workers     | 5                   
+ optimizer       | Adam                
+ random_seed     | 2019                
+ topk            | [5,10]              
+========================================
+INFO:root:cuda available: True
+INFO:root:# cuda devices: 1
+INFO:root:Load corpus from ../data/Grocery_and_Gourmet_Food/BaseReader.pkl
+INFO:root:#params: 1105634
+INFO:root:FISM(
+  (p_matrix): Embedding(8457, 64)
+  (q_matrix): Embedding(8457, 64)
+  (u_bias): Embedding(14681, 1)
+  (i_bias): Embedding(8457, 1)
+)
+INFO:root:Namespace(model_name='FISM')
+INFO:root:--------------------------------------------- BEGIN: 2021-02-06 20:58:35 ---------------------------------------------
+INFO:root:
+========================================
+ Arguments       | Values               
+========================================
+ batch_size      | 256                 
+ buffer          | 1                   
+ dataset         | Grocery_and_Gourm...
+ dropout         | 0                   
+ early_stop      | 5                   
+ emb_size        | 64                  
+ epoch           | 100                 
+ eval_batch_size | 256                 
+ gpu             | 0                   
+ history_max     | 20                  
+ l2              | 1e-06               
+ load            | 0                   
+ lr              | 0.001               
+ metric          | ["NDCG","HR"]       
+ num_neg         | 1                   
+ num_workers     | 5                   
+ optimizer       | Adam                
+ random_seed     | 2019                
+ topk            | [5,10]              
+========================================
+INFO:root:cuda available: True
+INFO:root:# cuda devices: 1
+INFO:root:Load corpus from ../data/Grocery_and_Gourmet_Food/BaseReader.pkl
+INFO:root:#params: 1105634
+INFO:root:FISM(
+  (p_matrix): Embedding(8457, 64)
+  (q_matrix): Embedding(8457, 64)
+  (u_bias): Embedding(14681, 1)
+  (i_bias): Embedding(8457, 1)
+)
+INFO:root:Namespace(model_name='FISM')
+INFO:root:--------------------------------------------- BEGIN: 2021-02-06 20:59:30 ---------------------------------------------
+INFO:root:
+========================================
+ Arguments       | Values               
+========================================
+ batch_size      | 256                 
+ buffer          | 1                   
+ dataset         | Grocery_and_Gourm...
+ dropout         | 0                   
+ early_stop      | 5                   
+ emb_size        | 64                  
+ epoch           | 100                 
+ eval_batch_size | 256                 
+ gpu             | 0                   
+ history_max     | 20                  
+ l2              | 1e-06               
+ load            | 0                   
+ lr              | 0.001               
+ metric          | ["NDCG","HR"]       
+ num_neg         | 1                   
+ num_workers     | 5                   
+ optimizer       | Adam                
+ random_seed     | 2019                
+ topk            | [5,10]              
+========================================
+INFO:root:cuda available: True
+INFO:root:# cuda devices: 1
+INFO:root:Load corpus from ../data/Grocery_and_Gourmet_Food/BaseReader.pkl
+INFO:root:#params: 1105634
+INFO:root:FISM(
+  (p_matrix): Embedding(8457, 64)
+  (q_matrix): Embedding(8457, 64)
+  (u_bias): Embedding(14681, 1)
+  (i_bias): Embedding(8457, 1)
+)
+INFO:root:Test Before Training: (HR@10:0.0915,HR@5:0.0438,NDCG@10:0.0407,NDCG@5:0.0254)
+INFO:root:Optimizer: Adam
+INFO:root:Epoch 1     loss=0.5102 [51.7 s]	 dev=(HR@5:0.3718,NDCG@5:0.2611) test=(HR@5:0.3213,NDCG@5:0.2203) [14.2 s] 
+INFO:root:Save model to ../model/FISM/FISM__Grocery_and_Gourmet_Food__2019...
+INFO:root:Epoch 2     loss=0.3675 [56.9 s]	 dev=(HR@5:0.4794,NDCG@5:0.3446) test=(HR@5:0.4191,NDCG@5:0.2925) [15.8 s] 
+INFO:root:Save model to ../model/FISM/FISM__Grocery_and_Gourmet_Food__2019...
+INFO:root:Epoch 3     loss=0.2776 [54.6 s]	 dev=(HR@5:0.5233,NDCG@5:0.3793) test=(HR@5:0.4609,NDCG@5:0.3257) [14.8 s] 
+INFO:root:Save model to ../model/FISM/FISM__Grocery_and_Gourmet_Food__2019...
+INFO:root:Epoch 4     loss=0.2193 [52.4 s]	 dev=(HR@5:0.5621,NDCG@5:0.4129) test=(HR@5:0.4953,NDCG@5:0.3549) [14.3 s] 
+INFO:root:Save model to ../model/FISM/FISM__Grocery_and_Gourmet_Food__2019...
+INFO:root:Epoch 5     loss=0.1731 [54.5 s]	 dev=(HR@5:0.5998,NDCG@5:0.4469) test=(HR@5:0.5322,NDCG@5:0.3845) [15.0 s] 
+INFO:root:Save model to ../model/FISM/FISM__Grocery_and_Gourmet_Food__2019...
+INFO:root:Epoch 6     loss=0.1396 [55.5 s]	 dev=(HR@5:0.6281,NDCG@5:0.4728) test=(HR@5:0.5643,NDCG@5:0.4132) [15.0 s] 
+INFO:root:Save model to ../model/FISM/FISM__Grocery_and_Gourmet_Food__2019...
+INFO:root:Epoch 7     loss=0.1145 [50.2 s]	 dev=(HR@5:0.6557,NDCG@5:0.4986) test=(HR@5:0.5883,NDCG@5:0.4368) [14.6 s] 
+INFO:root:Save model to ../model/FISM/FISM__Grocery_and_Gourmet_Food__2019...
+INFO:root:Epoch 8     loss=0.0935 [57.6 s]	 dev=(HR@5:0.6777,NDCG@5:0.5205) test=(HR@5:0.6112,NDCG@5:0.4588) [15.3 s] 
+INFO:root:Save model to ../model/FISM/FISM__Grocery_and_Gourmet_Food__2019...
+INFO:root:Epoch 9     loss=0.0768 [57.6 s]	 dev=(HR@5:0.6916,NDCG@5:0.5393) test=(HR@5:0.6303,NDCG@5:0.4787) [13.5 s] 
+INFO:root:Save model to ../model/FISM/FISM__Grocery_and_Gourmet_Food__2019...
+INFO:root:Epoch 10    loss=0.0660 [57.4 s]	 dev=(HR@5:0.7139,NDCG@5:0.5603) test=(HR@5:0.6484,NDCG@5:0.4960) [14.6 s] 
+INFO:root:Save model to ../model/FISM/FISM__Grocery_and_Gourmet_Food__2019...
+INFO:root:Epoch 11    loss=0.0551 [52.9 s]	 dev=(HR@5:0.7253,NDCG@5:0.5753) test=(HR@5:0.6616,NDCG@5:0.5104) [14.8 s] 
+INFO:root:Save model to ../model/FISM/FISM__Grocery_and_Gourmet_Food__2019...
+INFO:root:Epoch 12    loss=0.0479 [53.2 s]	 dev=(HR@5:0.7358,NDCG@5:0.5876) test=(HR@5:0.6768,NDCG@5:0.5239) [14.6 s] 
+INFO:root:Save model to ../model/FISM/FISM__Grocery_and_Gourmet_Food__2019...
+INFO:root:Epoch 13    loss=0.0423 [56.1 s]	 dev=(HR@5:0.7436,NDCG@5:0.5979) test=(HR@5:0.6885,NDCG@5:0.5367) [16.0 s] 
+INFO:root:Save model to ../model/FISM/FISM__Grocery_and_Gourmet_Food__2019...
+INFO:root:Epoch 14    loss=0.0369 [57.1 s]	 dev=(HR@5:0.7557,NDCG@5:0.6111) test=(HR@5:0.6986,NDCG@5:0.5474) [15.4 s] 
+INFO:root:Save model to ../model/FISM/FISM__Grocery_and_Gourmet_Food__2019...
+INFO:root:Epoch 15    loss=0.0341 [57.7 s]	 dev=(HR@5:0.7638,NDCG@5:0.6205) test=(HR@5:0.7084,NDCG@5:0.5567) [15.1 s] 
+INFO:root:Save model to ../model/FISM/FISM__Grocery_and_Gourmet_Food__2019...
+INFO:root:Epoch 16    loss=0.0315 [57.8 s]	 dev=(HR@5:0.7738,NDCG@5:0.6316) test=(HR@5:0.7170,NDCG@5:0.5677) [15.0 s] 
+INFO:root:Save model to ../model/FISM/FISM__Grocery_and_Gourmet_Food__2019...
+INFO:root:Epoch 17    loss=0.0276 [53.9 s]	 dev=(HR@5:0.7803,NDCG@5:0.6386) test=(HR@5:0.7248,NDCG@5:0.5758) [15.5 s] 
+INFO:root:Save model to ../model/FISM/FISM__Grocery_and_Gourmet_Food__2019...
+INFO:root:Epoch 18    loss=0.0257 [54.2 s]	 dev=(HR@5:0.7820,NDCG@5:0.6441) test=(HR@5:0.7289,NDCG@5:0.5821) [15.7 s] 
+INFO:root:Save model to ../model/FISM/FISM__Grocery_and_Gourmet_Food__2019...
+INFO:root:Epoch 19    loss=0.0245 [52.1 s]	 dev=(HR@5:0.7858,NDCG@5:0.6505) test=(HR@5:0.7349,NDCG@5:0.5889) [14.4 s] 
+INFO:root:Save model to ../model/FISM/FISM__Grocery_and_Gourmet_Food__2019...
+INFO:root:Epoch 20    loss=0.0221 [55.3 s]	 dev=(HR@5:0.7947,NDCG@5:0.6600) test=(HR@5:0.7414,NDCG@5:0.5976) [14.9 s] 
+INFO:root:Save model to ../model/FISM/FISM__Grocery_and_Gourmet_Food__2019...
+INFO:root:Epoch 21    loss=0.0215 [55.6 s]	 dev=(HR@5:0.7988,NDCG@5:0.6662) test=(HR@5:0.7465,NDCG@5:0.6021) [14.7 s] 
+INFO:root:Save model to ../model/FISM/FISM__Grocery_and_Gourmet_Food__2019...
+INFO:root:Epoch 22    loss=0.0201 [57.3 s]	 dev=(HR@5:0.8044,NDCG@5:0.6737) test=(HR@5:0.7518,NDCG@5:0.6086) [15.8 s] 
+INFO:root:Save model to ../model/FISM/FISM__Grocery_and_Gourmet_Food__2019...
+INFO:root:Epoch 23    loss=0.0189 [56.2 s]	 dev=(HR@5:0.8062,NDCG@5:0.6752) test=(HR@5:0.7544,NDCG@5:0.6122) [16.0 s] 
+INFO:root:Save model to ../model/FISM/FISM__Grocery_and_Gourmet_Food__2019...
+INFO:root:Epoch 24    loss=0.0192 [55.3 s]	 dev=(HR@5:0.8107,NDCG@5:0.6825) test=(HR@5:0.7596,NDCG@5:0.6200) [15.1 s] 
+INFO:root:Save model to ../model/FISM/FISM__Grocery_and_Gourmet_Food__2019...
+INFO:root:Epoch 25    loss=0.0170 [53.3 s]	 dev=(HR@5:0.8149,NDCG@5:0.6853) test=(HR@5:0.7615,NDCG@5:0.6226) [14.1 s] 
+INFO:root:Save model to ../model/FISM/FISM__Grocery_and_Gourmet_Food__2019...
+INFO:root:Epoch 26    loss=0.0167 [53.0 s]	 dev=(HR@5:0.8215,NDCG@5:0.6928) test=(HR@5:0.7656,NDCG@5:0.6296) [15.7 s] 
+INFO:root:Save model to ../model/FISM/FISM__Grocery_and_Gourmet_Food__2019...
+INFO:root:Epoch 27    loss=0.0164 [53.1 s]	 dev=(HR@5:0.8216,NDCG@5:0.6945) test=(HR@5:0.7683,NDCG@5:0.6303) [15.4 s] 
+INFO:root:Save model to ../model/FISM/FISM__Grocery_and_Gourmet_Food__2019...
+INFO:root:Epoch 28    loss=0.0147 [55.8 s]	 dev=(HR@5:0.8244,NDCG@5:0.6985) test=(HR@5:0.7732,NDCG@5:0.6374) [15.5 s] 
+INFO:root:Save model to ../model/FISM/FISM__Grocery_and_Gourmet_Food__2019...
+INFO:root:Epoch 29    loss=0.0141 [56.1 s]	 dev=(HR@5:0.8278,NDCG@5:0.7027) test=(HR@5:0.7764,NDCG@5:0.6412) [15.0 s] 
+INFO:root:Save model to ../model/FISM/FISM__Grocery_and_Gourmet_Food__2019...
+INFO:root:Epoch 30    loss=0.0142 [56.6 s]	 dev=(HR@5:0.8295,NDCG@5:0.7075) test=(HR@5:0.7776,NDCG@5:0.6446) [14.7 s] 
+INFO:root:Save model to ../model/FISM/FISM__Grocery_and_Gourmet_Food__2019...
+INFO:root:Epoch 31    loss=0.0136 [52.2 s]	 dev=(HR@5:0.8318,NDCG@5:0.7122) test=(HR@5:0.7816,NDCG@5:0.6488) [14.7 s] 
+INFO:root:Save model to ../model/FISM/FISM__Grocery_and_Gourmet_Food__2019...
+INFO:root:Epoch 32    loss=0.0140 [54.1 s]	 dev=(HR@5:0.8351,NDCG@5:0.7136) test=(HR@5:0.7837,NDCG@5:0.6508) [15.7 s] 
+INFO:root:Save model to ../model/FISM/FISM__Grocery_and_Gourmet_Food__2019...
+INFO:root:Epoch 33    loss=0.0127 [53.6 s]	 dev=(HR@5:0.8362,NDCG@5:0.7153) test=(HR@5:0.7837,NDCG@5:0.6530) [14.9 s] 
+INFO:root:Save model to ../model/FISM/FISM__Grocery_and_Gourmet_Food__2019...
+INFO:root:Epoch 34    loss=0.0140 [53.2 s]	 dev=(HR@5:0.8356,NDCG@5:0.7177) test=(HR@5:0.7858,NDCG@5:0.6543) [15.4 s] 
+INFO:root:Save model to ../model/FISM/FISM__Grocery_and_Gourmet_Food__2019...
+INFO:root:Epoch 35    loss=0.0128 [56.5 s]	 dev=(HR@5:0.8390,NDCG@5:0.7204) test=(HR@5:0.7878,NDCG@5:0.6580) [14.9 s] 
+INFO:root:Save model to ../model/FISM/FISM__Grocery_and_Gourmet_Food__2019...
+INFO:root:Epoch 36    loss=0.0117 [57.2 s]	 dev=(HR@5:0.8407,NDCG@5:0.7233) test=(HR@5:0.7882,NDCG@5:0.6587) [14.6 s] 
+INFO:root:Save model to ../model/FISM/FISM__Grocery_and_Gourmet_Food__2019...
+INFO:root:Epoch 37    loss=0.0122 [56.1 s]	 dev=(HR@5:0.8420,NDCG@5:0.7261) test=(HR@5:0.7893,NDCG@5:0.6625) [14.5 s] 
+INFO:root:Save model to ../model/FISM/FISM__Grocery_and_Gourmet_Food__2019...
+INFO:root:Epoch 38    loss=0.0121 [54.2 s]	 dev=(HR@5:0.8396,NDCG@5:0.7250) test=(HR@5:0.7906,NDCG@5:0.6627) [15.3 s] 
+INFO:root:Epoch 39    loss=0.0116 [56.0 s]	 dev=(HR@5:0.8425,NDCG@5:0.7279) test=(HR@5:0.7928,NDCG@5:0.6644) [15.9 s] 
+INFO:root:Save model to ../model/FISM/FISM__Grocery_and_Gourmet_Food__2019...
+INFO:root:Epoch 40    loss=0.0126 [55.2 s]	 dev=(HR@5:0.8446,NDCG@5:0.7303) test=(HR@5:0.7927,NDCG@5:0.6665) [14.9 s] 
+INFO:root:Save model to ../model/FISM/FISM__Grocery_and_Gourmet_Food__2019...
+INFO:root:Epoch 41    loss=0.0120 [57.5 s]	 dev=(HR@5:0.8454,NDCG@5:0.7324) test=(HR@5:0.7953,NDCG@5:0.6693) [15.0 s] 
+INFO:root:Save model to ../model/FISM/FISM__Grocery_and_Gourmet_Food__2019...
+INFO:root:Epoch 42    loss=0.0118 [57.8 s]	 dev=(HR@5:0.8464,NDCG@5:0.7331) test=(HR@5:0.7946,NDCG@5:0.6702) [15.8 s] 
+INFO:root:Save model to ../model/FISM/FISM__Grocery_and_Gourmet_Food__2019...
+INFO:root:Epoch 43    loss=0.0111 [51.2 s]	 dev=(HR@5:0.8460,NDCG@5:0.7348) test=(HR@5:0.7976,NDCG@5:0.6731) [15.2 s] 
+INFO:root:Save model to ../model/FISM/FISM__Grocery_and_Gourmet_Food__2019...
+INFO:root:Epoch 44    loss=0.0104 [53.9 s]	 dev=(HR@5:0.8479,NDCG@5:0.7357) test=(HR@5:0.7974,NDCG@5:0.6744) [15.1 s] 
+INFO:root:Save model to ../model/FISM/FISM__Grocery_and_Gourmet_Food__2019...
+INFO:root:Epoch 45    loss=0.0109 [55.2 s]	 dev=(HR@5:0.8473,NDCG@5:0.7361) test=(HR@5:0.7978,NDCG@5:0.6759) [14.3 s] 
+INFO:root:Save model to ../model/FISM/FISM__Grocery_and_Gourmet_Food__2019...
+INFO:root:Epoch 46    loss=0.0106 [58.2 s]	 dev=(HR@5:0.8483,NDCG@5:0.7371) test=(HR@5:0.7980,NDCG@5:0.6766) [15.3 s] 
+INFO:root:Save model to ../model/FISM/FISM__Grocery_and_Gourmet_Food__2019...
+INFO:root:Epoch 47    loss=0.0108 [57.0 s]	 dev=(HR@5:0.8481,NDCG@5:0.7364) test=(HR@5:0.7985,NDCG@5:0.6761) [15.9 s] 
+INFO:root:Epoch 48    loss=0.0100 [57.7 s]	 dev=(HR@5:0.8470,NDCG@5:0.7371) test=(HR@5:0.7968,NDCG@5:0.6752) [16.0 s] 
+INFO:root:Save model to ../model/FISM/FISM__Grocery_and_Gourmet_Food__2019...
+INFO:root:Epoch 49    loss=0.0109 [56.7 s]	 dev=(HR@5:0.8489,NDCG@5:0.7395) test=(HR@5:0.8003,NDCG@5:0.6796) [14.7 s] 
+INFO:root:Save model to ../model/FISM/FISM__Grocery_and_Gourmet_Food__2019...
+INFO:root:Epoch 50    loss=0.0106 [58.0 s]	 dev=(HR@5:0.8484,NDCG@5:0.7403) test=(HR@5:0.7987,NDCG@5:0.6795) [15.8 s] 
+INFO:root:Save model to ../model/FISM/FISM__Grocery_and_Gourmet_Food__2019...
+INFO:root:Epoch 51    loss=0.0107 [56.9 s]	 dev=(HR@5:0.8475,NDCG@5:0.7399) test=(HR@5:0.7998,NDCG@5:0.6797) [14.6 s] 
+INFO:root:Epoch 52    loss=0.0099 [57.8 s]	 dev=(HR@5:0.8504,NDCG@5:0.7430) test=(HR@5:0.8012,NDCG@5:0.6835) [14.9 s] 
+INFO:root:Save model to ../model/FISM/FISM__Grocery_and_Gourmet_Food__2019...
+INFO:root:Epoch 53    loss=0.0104 [54.4 s]	 dev=(HR@5:0.8501,NDCG@5:0.7418) test=(HR@5:0.8008,NDCG@5:0.6838) [14.7 s] 
+INFO:root:Epoch 54    loss=0.0098 [56.2 s]	 dev=(HR@5:0.8488,NDCG@5:0.7396) test=(HR@5:0.7999,NDCG@5:0.6836) [14.3 s] 
+INFO:root:Epoch 55    loss=0.0099 [56.1 s]	 dev=(HR@5:0.8481,NDCG@5:0.7427) test=(HR@5:0.8005,NDCG@5:0.6849) [15.7 s] 
+INFO:root:Epoch 56    loss=0.0098 [51.8 s]	 dev=(HR@5:0.8490,NDCG@5:0.7430) test=(HR@5:0.8004,NDCG@5:0.6849) [15.4 s] 
+INFO:root:Epoch 57    loss=0.0099 [52.0 s]	 dev=(HR@5:0.8480,NDCG@5:0.7430) test=(HR@5:0.7972,NDCG@5:0.6826) [15.1 s] 
+INFO:root:Epoch 58    loss=0.0093 [57.1 s]	 dev=(HR@5:0.8501,NDCG@5:0.7459) test=(HR@5:0.7980,NDCG@5:0.6836) [15.4 s] 
+INFO:root:Save model to ../model/FISM/FISM__Grocery_and_Gourmet_Food__2019...
+INFO:root:Epoch 59    loss=0.0095 [56.7 s]	 dev=(HR@5:0.8501,NDCG@5:0.7460) test=(HR@5:0.7967,NDCG@5:0.6851) [14.4 s] 
+INFO:root:Save model to ../model/FISM/FISM__Grocery_and_Gourmet_Food__2019...
+INFO:root:Epoch 60    loss=0.0097 [55.2 s]	 dev=(HR@5:0.8489,NDCG@5:0.7456) test=(HR@5:0.7962,NDCG@5:0.6829) [14.5 s] 
+INFO:root:Epoch 61    loss=0.0093 [54.5 s]	 dev=(HR@5:0.8508,NDCG@5:0.7452) test=(HR@5:0.7989,NDCG@5:0.6842) [14.9 s] 
+INFO:root:Epoch 62    loss=0.0102 [51.6 s]	 dev=(HR@5:0.8489,NDCG@5:0.7456) test=(HR@5:0.8008,NDCG@5:0.6865) [14.1 s] 
+INFO:root:Epoch 63    loss=0.0095 [55.7 s]	 dev=(HR@5:0.8490,NDCG@5:0.7445) test=(HR@5:0.8010,NDCG@5:0.6859) [14.8 s] 
+INFO:root:Epoch 64    loss=0.0099 [54.5 s]	 dev=(HR@5:0.8503,NDCG@5:0.7447) test=(HR@5:0.8009,NDCG@5:0.6858) [15.3 s] 
+INFO:root:Epoch 65    loss=0.0095 [55.2 s]	 dev=(HR@5:0.8480,NDCG@5:0.7437) test=(HR@5:0.7999,NDCG@5:0.6855) [15.1 s] 
+INFO:root:Epoch 66    loss=0.0094 [55.4 s]	 dev=(HR@5:0.8505,NDCG@5:0.7448) test=(HR@5:0.7976,NDCG@5:0.6846) [14.5 s] 
+INFO:root:Epoch 67    loss=0.0100 [56.8 s]	 dev=(HR@5:0.8480,NDCG@5:0.7440) test=(HR@5:0.7966,NDCG@5:0.6847) [15.2 s] 
+INFO:root:Epoch 68    loss=0.0096 [54.9 s]	 dev=(HR@5:0.8459,NDCG@5:0.7441) test=(HR@5:0.7972,NDCG@5:0.6850) [15.7 s] 
+INFO:root:Epoch 69    loss=0.0090 [55.3 s]	 dev=(HR@5:0.8481,NDCG@5:0.7457) test=(HR@5:0.7972,NDCG@5:0.6851) [14.9 s] 
+INFO:root:Epoch 70    loss=0.0087 [54.2 s]	 dev=(HR@5:0.8486,NDCG@5:0.7463) test=(HR@5:0.7986,NDCG@5:0.6872) [15.8 s] 
+INFO:root:Save model to ../model/FISM/FISM__Grocery_and_Gourmet_Food__2019...
+INFO:root:Epoch 71    loss=0.0098 [53.2 s]	 dev=(HR@5:0.8466,NDCG@5:0.7447) test=(HR@5:0.7974,NDCG@5:0.6855) [14.5 s] 
+INFO:root:Epoch 72    loss=0.0086 [58.6 s]	 dev=(HR@5:0.8464,NDCG@5:0.7442) test=(HR@5:0.7967,NDCG@5:0.6858) [14.8 s] 
+INFO:root:Epoch 73    loss=0.0088 [56.1 s]	 dev=(HR@5:0.8458,NDCG@5:0.7438) test=(HR@5:0.7971,NDCG@5:0.6849) [15.9 s] 
+INFO:root:Epoch 74    loss=0.0092 [55.5 s]	 dev=(HR@5:0.8467,NDCG@5:0.7441) test=(HR@5:0.7973,NDCG@5:0.6853) [14.1 s] 
+INFO:root:Epoch 75    loss=0.0091 [55.3 s]	 dev=(HR@5:0.8456,NDCG@5:0.7448) test=(HR@5:0.7963,NDCG@5:0.6848) [15.5 s] 
+INFO:root:Epoch 76    loss=0.0085 [55.8 s]	 dev=(HR@5:0.8439,NDCG@5:0.7437) test=(HR@5:0.7914,NDCG@5:0.6826) [15.2 s] 
+INFO:root:Epoch 77    loss=0.0087 [53.0 s]	 dev=(HR@5:0.8441,NDCG@5:0.7435) test=(HR@5:0.7933,NDCG@5:0.6838) [15.1 s] 
+INFO:root:Epoch 78    loss=0.0085 [54.3 s]	 dev=(HR@5:0.8437,NDCG@5:0.7442) test=(HR@5:0.7918,NDCG@5:0.6820) [15.7 s] 
+INFO:root:Epoch 79    loss=0.0085 [55.9 s]	 dev=(HR@5:0.8454,NDCG@5:0.7448) test=(HR@5:0.7933,NDCG@5:0.6837) [14.7 s] 
+INFO:root:Epoch 80    loss=0.0085 [52.2 s]	 dev=(HR@5:0.8431,NDCG@5:0.7442) test=(HR@5:0.7932,NDCG@5:0.6836) [14.0 s] 
+INFO:root:Epoch 81    loss=0.0092 [53.8 s]	 dev=(HR@5:0.8439,NDCG@5:0.7453) test=(HR@5:0.7931,NDCG@5:0.6834) [14.7 s] 
+INFO:root:Epoch 82    loss=0.0088 [58.0 s]	 dev=(HR@5:0.8418,NDCG@5:0.7450) test=(HR@5:0.7936,NDCG@5:0.6846) [14.6 s] 
+INFO:root:Epoch 83    loss=0.0087 [55.4 s]	 dev=(HR@5:0.8410,NDCG@5:0.7438) test=(HR@5:0.7930,NDCG@5:0.6833) [15.6 s] 
+INFO:root:Epoch 84    loss=0.0089 [55.8 s]	 dev=(HR@5:0.8405,NDCG@5:0.7444) test=(HR@5:0.7960,NDCG@5:0.6845) [15.0 s] 
+INFO:root:Epoch 85    loss=0.0093 [54.9 s]	 dev=(HR@5:0.8411,NDCG@5:0.7457) test=(HR@5:0.7942,NDCG@5:0.6844) [14.8 s] 
+INFO:root:Epoch 86    loss=0.0085 [56.1 s]	 dev=(HR@5:0.8408,NDCG@5:0.7436) test=(HR@5:0.7937,NDCG@5:0.6844) [15.8 s] 
+INFO:root:Epoch 87    loss=0.0088 [53.8 s]	 dev=(HR@5:0.8404,NDCG@5:0.7439) test=(HR@5:0.7900,NDCG@5:0.6820) [15.5 s] 
+INFO:root:Epoch 88    loss=0.0095 [58.5 s]	 dev=(HR@5:0.8414,NDCG@5:0.7433) test=(HR@5:0.7924,NDCG@5:0.6835) [15.3 s] 
+INFO:root:Epoch 89    loss=0.0080 [56.3 s]	 dev=(HR@5:0.8408,NDCG@5:0.7434) test=(HR@5:0.7883,NDCG@5:0.6828) [15.8 s] 
+INFO:root:Epoch 90    loss=0.0082 [54.8 s]	 dev=(HR@5:0.8416,NDCG@5:0.7446) test=(HR@5:0.7916,NDCG@5:0.6841) [14.9 s] 
+INFO:root:Early stop at 90 based on dev result.
+INFO:root:
+Best Iter(dev)=   70	 dev=(HR@5:0.8486,NDCG@5:0.7463) test=(HR@5:0.7986,NDCG@5:0.6872) [6327.8 s] 
+INFO:root:Load model from ../model/FISM/FISM__Grocery_and_Gourmet_Food__2019__lr=0.001__l2=1e-06.pt
+INFO:root:
+Test After Training: (HR@10:0.8761,HR@5:0.7986,NDCG@10:0.7124,NDCG@5:0.6872)
+INFO:root:
+--------------------------------------------- END: 2021-02-06 22:45:18 ---------------------------------------------
+INFO:root:Namespace(model_name='FISM')
+INFO:root:--------------------------------------------- BEGIN: 2021-02-07 09:39:56 ---------------------------------------------
+INFO:root:
+========================================
+ Arguments       | Values               
+========================================
+ batch_size      | 256                 
+ buffer          | 1                   
+ dataset         | Grocery_and_Gourm...
+ dropout         | 0                   
+ early_stop      | 5                   
+ emb_size        | 64                  
+ epoch           | 100                 
+ eval_batch_size | 256                 
+ gpu             | 0                   
+ history_max     | 20                  
+ l2              | 1e-06               
+ load            | 0                   
+ lr              | 0.001               
+ metric          | ["NDCG","HR"]       
+ num_neg         | 1                   
+ num_workers     | 5                   
+ optimizer       | Adam                
+ random_seed     | 2019                
+ topk            | [5,10]              
+========================================
+INFO:root:cuda available: True
+INFO:root:# cuda devices: 1
+INFO:root:Load corpus from ../data/Grocery_and_Gourmet_Food/BaseReader.pkl
+INFO:root:#params: 1105634
+INFO:root:FISM(
+  (p_matrix): Embedding(8457, 64)
+  (q_matrix): Embedding(8457, 64)
+  (u_bias): Embedding(14681, 1)
+  (i_bias): Embedding(8457, 1)
+)
+INFO:root:Namespace(model_name='FISM')
+INFO:root:--------------------------------------------- BEGIN: 2021-02-07 09:41:58 ---------------------------------------------
+INFO:root:
+========================================
+ Arguments       | Values               
+========================================
+ batch_size      | 256                 
+ buffer          | 1                   
+ dataset         | Grocery_and_Gourm...
+ dropout         | 0                   
+ early_stop      | 5                   
+ emb_size        | 64                  
+ epoch           | 100                 
+ eval_batch_size | 256                 
+ gpu             | 0                   
+ history_max     | 20                  
+ l2              | 1e-06               
+ load            | 0                   
+ lr              | 0.001               
+ metric          | ["NDCG","HR"]       
+ num_neg         | 1                   
+ num_workers     | 5                   
+ optimizer       | Adam                
+ random_seed     | 2019                
+ topk            | [5,10]              
+========================================
+INFO:root:cuda available: True
+INFO:root:# cuda devices: 1
+INFO:root:Load corpus from ../data/Grocery_and_Gourmet_Food/BaseReader.pkl
+INFO:root:#params: 1105634
+INFO:root:FISM(
+  (p_matrix): Embedding(8457, 64)
+  (q_matrix): Embedding(8457, 64)
+  (u_bias): Embedding(14681, 1)
+  (i_bias): Embedding(8457, 1)
+)
+INFO:root:Namespace(model_name='FISM')
+INFO:root:--------------------------------------------- BEGIN: 2021-02-07 09:42:49 ---------------------------------------------
+INFO:root:
+========================================
+ Arguments       | Values               
+========================================
+ batch_size      | 256                 
+ buffer          | 1                   
+ dataset         | Grocery_and_Gourm...
+ dropout         | 0                   
+ early_stop      | 5                   
+ emb_size        | 64                  
+ epoch           | 100                 
+ eval_batch_size | 256                 
+ gpu             | 0                   
+ history_max     | 20                  
+ l2              | 1e-06               
+ load            | 0                   
+ lr              | 0.001               
+ metric          | ["NDCG","HR"]       
+ num_neg         | 1                   
+ num_workers     | 5                   
+ optimizer       | Adam                
+ random_seed     | 2019                
+ topk            | [5,10]              
+========================================
+INFO:root:cuda available: True
+INFO:root:# cuda devices: 1
+INFO:root:Load corpus from ../data/Grocery_and_Gourmet_Food/BaseReader.pkl
+INFO:root:#params: 1105634
+INFO:root:FISM(
+  (p_matrix): Embedding(8457, 64)
+  (q_matrix): Embedding(8457, 64)
+  (u_bias): Embedding(14681, 1)
+  (i_bias): Embedding(8457, 1)
+)
+INFO:root:Namespace(model_name='FISM')
+INFO:root:--------------------------------------------- BEGIN: 2021-02-07 09:43:41 ---------------------------------------------
+INFO:root:
+========================================
+ Arguments       | Values               
+========================================
+ batch_size      | 256                 
+ buffer          | 1                   
+ dataset         | Grocery_and_Gourm...
+ dropout         | 0                   
+ early_stop      | 5                   
+ emb_size        | 64                  
+ epoch           | 100                 
+ eval_batch_size | 256                 
+ gpu             | 0                   
+ history_max     | 20                  
+ l2              | 1e-06               
+ load            | 0                   
+ lr              | 0.001               
+ metric          | ["NDCG","HR"]       
+ num_neg         | 1                   
+ num_workers     | 5                   
+ optimizer       | Adam                
+ random_seed     | 2019                
+ topk            | [5,10]              
+========================================
+INFO:root:cuda available: True
+INFO:root:# cuda devices: 1
+INFO:root:Load corpus from ../data/Grocery_and_Gourmet_Food/BaseReader.pkl
+INFO:root:#params: 1105634
+INFO:root:FISM(
+  (p_matrix): Embedding(8457, 64)
+  (q_matrix): Embedding(8457, 64)
+  (u_bias): Embedding(14681, 1)
+  (i_bias): Embedding(8457, 1)
+)
+INFO:root:Namespace(model_name='FISM')
+INFO:root:--------------------------------------------- BEGIN: 2021-02-07 10:03:48 ---------------------------------------------
+INFO:root:
+========================================
+ Arguments       | Values               
+========================================
+ batch_size      | 256                 
+ buffer          | 1                   
+ dataset         | Grocery_and_Gourm...
+ dropout         | 0                   
+ early_stop      | 5                   
+ emb_size        | 64                  
+ epoch           | 100                 
+ eval_batch_size | 256                 
+ gpu             | 0                   
+ history_max     | 20                  
+ l2              | 1e-06               
+ load            | 0                   
+ lr              | 0.001               
+ metric          | ["NDCG","HR"]       
+ num_neg         | 1                   
+ num_workers     | 5                   
+ optimizer       | Adam                
+ random_seed     | 2019                
+ topk            | [5,10]              
+========================================
+INFO:root:cuda available: True
+INFO:root:# cuda devices: 1
+INFO:root:Load corpus from ../data/Grocery_and_Gourmet_Food/BaseReader.pkl
+INFO:root:#params: 1105634
+INFO:root:FISM(
+  (p_matrix): Embedding(8457, 64)
+  (q_matrix): Embedding(8457, 64)
+  (u_bias): Embedding(14681, 1)
+  (i_bias): Embedding(8457, 1)
+)
+INFO:root:Test Before Training: (HR@10:0.0967,HR@5:0.0462,NDCG@10:0.0430,NDCG@5:0.0269)
+INFO:root:Optimizer: Adam
+INFO:root:Epoch 1     loss=0.5444 [48.8 s]	 dev=(HR@5:0.3269,NDCG@5:0.2298) test=(HR@5:0.2836,NDCG@5:0.1943) [14.8 s] 
+INFO:root:Save model to ../model/FISM/FISM__Grocery_and_Gourmet_Food__2019...
+INFO:root:Epoch 2     loss=0.4138 [48.4 s]	 dev=(HR@5:0.4029,NDCG@5:0.3070) test=(HR@5:0.3447,NDCG@5:0.2566) [15.7 s] 
+INFO:root:Save model to ../model/FISM/FISM__Grocery_and_Gourmet_Food__2019...
+INFO:root:Epoch 3     loss=0.3391 [47.7 s]	 dev=(HR@5:0.4691,NDCG@5:0.3753) test=(HR@5:0.4039,NDCG@5:0.3149) [15.6 s] 
+INFO:root:Save model to ../model/FISM/FISM__Grocery_and_Gourmet_Food__2019...
+INFO:root:Epoch 4     loss=0.2764 [49.9 s]	 dev=(HR@5:0.5194,NDCG@5:0.4275) test=(HR@5:0.4504,NDCG@5:0.3602) [15.6 s] 
+INFO:root:Save model to ../model/FISM/FISM__Grocery_and_Gourmet_Food__2019...
+INFO:root:Epoch 5     loss=0.2209 [50.8 s]	 dev=(HR@5:0.5561,NDCG@5:0.4649) test=(HR@5:0.4887,NDCG@5:0.3956) [15.4 s] 
+INFO:root:Save model to ../model/FISM/FISM__Grocery_and_Gourmet_Food__2019...
+INFO:root:Epoch 6     loss=0.1759 [47.8 s]	 dev=(HR@5:0.5880,NDCG@5:0.4953) test=(HR@5:0.5170,NDCG@5:0.4231) [15.7 s] 
+INFO:root:Save model to ../model/FISM/FISM__Grocery_and_Gourmet_Food__2019...
+INFO:root:Epoch 7     loss=0.1396 [49.2 s]	 dev=(HR@5:0.6160,NDCG@5:0.5235) test=(HR@5:0.5428,NDCG@5:0.4494) [16.3 s] 
+INFO:root:Save model to ../model/FISM/FISM__Grocery_and_Gourmet_Food__2019...
+INFO:root:Epoch 8     loss=0.1122 [51.7 s]	 dev=(HR@5:0.6382,NDCG@5:0.5470) test=(HR@5:0.5614,NDCG@5:0.4695) [15.3 s] 
+INFO:root:Save model to ../model/FISM/FISM__Grocery_and_Gourmet_Food__2019...
+INFO:root:Epoch 9     loss=0.0907 [46.6 s]	 dev=(HR@5:0.6601,NDCG@5:0.5698) test=(HR@5:0.5802,NDCG@5:0.4883) [16.5 s] 
+INFO:root:Save model to ../model/FISM/FISM__Grocery_and_Gourmet_Food__2019...
+INFO:root:Epoch 10    loss=0.0725 [50.1 s]	 dev=(HR@5:0.6768,NDCG@5:0.5875) test=(HR@5:0.5946,NDCG@5:0.5035) [15.3 s] 
+INFO:root:Save model to ../model/FISM/FISM__Grocery_and_Gourmet_Food__2019...
+INFO:root:Epoch 11    loss=0.0600 [48.0 s]	 dev=(HR@5:0.6892,NDCG@5:0.6025) test=(HR@5:0.6048,NDCG@5:0.5153) [15.9 s] 
+INFO:root:Save model to ../model/FISM/FISM__Grocery_and_Gourmet_Food__2019...
+INFO:root:Epoch 12    loss=0.0495 [47.6 s]	 dev=(HR@5:0.7004,NDCG@5:0.6163) test=(HR@5:0.6175,NDCG@5:0.5270) [15.6 s] 
+INFO:root:Save model to ../model/FISM/FISM__Grocery_and_Gourmet_Food__2019...
+INFO:root:Epoch 13    loss=0.0408 [48.5 s]	 dev=(HR@5:0.7128,NDCG@5:0.6285) test=(HR@5:0.6286,NDCG@5:0.5396) [15.0 s] 
+INFO:root:Save model to ../model/FISM/FISM__Grocery_and_Gourmet_Food__2019...
+INFO:root:Epoch 14    loss=0.0348 [50.1 s]	 dev=(HR@5:0.7224,NDCG@5:0.6388) test=(HR@5:0.6375,NDCG@5:0.5500) [15.5 s] 
+INFO:root:Save model to ../model/FISM/FISM__Grocery_and_Gourmet_Food__2019...
+INFO:root:Epoch 15    loss=0.0295 [50.0 s]	 dev=(HR@5:0.7325,NDCG@5:0.6504) test=(HR@5:0.6453,NDCG@5:0.5603) [14.3 s] 
+INFO:root:Save model to ../model/FISM/FISM__Grocery_and_Gourmet_Food__2019...
+INFO:root:Epoch 16    loss=0.0245 [49.4 s]	 dev=(HR@5:0.7408,NDCG@5:0.6602) test=(HR@5:0.6519,NDCG@5:0.5667) [15.0 s] 
+INFO:root:Save model to ../model/FISM/FISM__Grocery_and_Gourmet_Food__2019...
+INFO:root:Epoch 17    loss=0.0219 [49.4 s]	 dev=(HR@5:0.7495,NDCG@5:0.6679) test=(HR@5:0.6614,NDCG@5:0.5756) [15.2 s] 
+INFO:root:Save model to ../model/FISM/FISM__Grocery_and_Gourmet_Food__2019...
+INFO:root:Epoch 18    loss=0.0190 [47.8 s]	 dev=(HR@5:0.7528,NDCG@5:0.6741) test=(HR@5:0.6654,NDCG@5:0.5823) [16.4 s] 
+INFO:root:Save model to ../model/FISM/FISM__Grocery_and_Gourmet_Food__2019...
+INFO:root:Epoch 19    loss=0.0174 [50.4 s]	 dev=(HR@5:0.7581,NDCG@5:0.6807) test=(HR@5:0.6732,NDCG@5:0.5893) [15.4 s] 
+INFO:root:Save model to ../model/FISM/FISM__Grocery_and_Gourmet_Food__2019...
+INFO:root:Epoch 20    loss=0.0148 [48.5 s]	 dev=(HR@5:0.7633,NDCG@5:0.6861) test=(HR@5:0.6772,NDCG@5:0.5948) [15.9 s] 
+INFO:root:Save model to ../model/FISM/FISM__Grocery_and_Gourmet_Food__2019...
+INFO:root:Epoch 21    loss=0.0139 [48.9 s]	 dev=(HR@5:0.7699,NDCG@5:0.6938) test=(HR@5:0.6828,NDCG@5:0.6002) [15.7 s] 
+INFO:root:Save model to ../model/FISM/FISM__Grocery_and_Gourmet_Food__2019...
+INFO:root:Epoch 22    loss=0.0127 [47.9 s]	 dev=(HR@5:0.7740,NDCG@5:0.6981) test=(HR@5:0.6873,NDCG@5:0.6054) [15.4 s] 
+INFO:root:Save model to ../model/FISM/FISM__Grocery_and_Gourmet_Food__2019...
+INFO:root:Epoch 23    loss=0.0117 [48.8 s]	 dev=(HR@5:0.7766,NDCG@5:0.7007) test=(HR@5:0.6917,NDCG@5:0.6092) [15.3 s] 
+INFO:root:Save model to ../model/FISM/FISM__Grocery_and_Gourmet_Food__2019...
+INFO:root:Epoch 24    loss=0.0113 [47.0 s]	 dev=(HR@5:0.7790,NDCG@5:0.7047) test=(HR@5:0.6952,NDCG@5:0.6139) [14.7 s] 
+INFO:root:Save model to ../model/FISM/FISM__Grocery_and_Gourmet_Food__2019...
+INFO:root:Epoch 25    loss=0.0105 [50.2 s]	 dev=(HR@5:0.7810,NDCG@5:0.7091) test=(HR@5:0.6954,NDCG@5:0.6155) [14.3 s] 
+INFO:root:Save model to ../model/FISM/FISM__Grocery_and_Gourmet_Food__2019...
+INFO:root:Epoch 26    loss=0.0098 [49.8 s]	 dev=(HR@5:0.7845,NDCG@5:0.7129) test=(HR@5:0.6990,NDCG@5:0.6200) [15.0 s] 
+INFO:root:Save model to ../model/FISM/FISM__Grocery_and_Gourmet_Food__2019...
+INFO:root:Epoch 27    loss=0.0096 [50.8 s]	 dev=(HR@5:0.7867,NDCG@5:0.7162) test=(HR@5:0.7000,NDCG@5:0.6213) [16.7 s] 
+INFO:root:Save model to ../model/FISM/FISM__Grocery_and_Gourmet_Food__2019...
+INFO:root:Epoch 28    loss=0.0090 [48.1 s]	 dev=(HR@5:0.7890,NDCG@5:0.7196) test=(HR@5:0.7035,NDCG@5:0.6249) [16.5 s] 
+INFO:root:Save model to ../model/FISM/FISM__Grocery_and_Gourmet_Food__2019...
+INFO:root:Epoch 29    loss=0.0087 [49.8 s]	 dev=(HR@5:0.7919,NDCG@5:0.7213) test=(HR@5:0.7061,NDCG@5:0.6276) [16.0 s] 
+INFO:root:Save model to ../model/FISM/FISM__Grocery_and_Gourmet_Food__2019...
+INFO:root:Epoch 30    loss=0.0087 [48.6 s]	 dev=(HR@5:0.7916,NDCG@5:0.7219) test=(HR@5:0.7079,NDCG@5:0.6293) [15.6 s] 
+INFO:root:Save model to ../model/FISM/FISM__Grocery_and_Gourmet_Food__2019...
+INFO:root:Epoch 31    loss=0.0082 [50.0 s]	 dev=(HR@5:0.7915,NDCG@5:0.7236) test=(HR@5:0.7093,NDCG@5:0.6319) [15.5 s] 
+INFO:root:Save model to ../model/FISM/FISM__Grocery_and_Gourmet_Food__2019...
+INFO:root:Epoch 32    loss=0.0082 [49.2 s]	 dev=(HR@5:0.7928,NDCG@5:0.7247) test=(HR@5:0.7088,NDCG@5:0.6321) [14.4 s] 
+INFO:root:Save model to ../model/FISM/FISM__Grocery_and_Gourmet_Food__2019...
+INFO:root:Epoch 33    loss=0.0079 [48.1 s]	 dev=(HR@5:0.7945,NDCG@5:0.7258) test=(HR@5:0.7110,NDCG@5:0.6337) [15.3 s] 
+INFO:root:Save model to ../model/FISM/FISM__Grocery_and_Gourmet_Food__2019...
+INFO:root:Epoch 34    loss=0.0076 [49.1 s]	 dev=(HR@5:0.7938,NDCG@5:0.7273) test=(HR@5:0.7146,NDCG@5:0.6361) [15.6 s] 
+INFO:root:Save model to ../model/FISM/FISM__Grocery_and_Gourmet_Food__2019...
+INFO:root:Epoch 35    loss=0.0077 [49.1 s]	 dev=(HR@5:0.7937,NDCG@5:0.7278) test=(HR@5:0.7151,NDCG@5:0.6388) [16.0 s] 
+INFO:root:Save model to ../model/FISM/FISM__Grocery_and_Gourmet_Food__2019...
+INFO:root:Epoch 36    loss=0.0077 [49.3 s]	 dev=(HR@5:0.7944,NDCG@5:0.7281) test=(HR@5:0.7112,NDCG@5:0.6367) [15.4 s] 
+INFO:root:Save model to ../model/FISM/FISM__Grocery_and_Gourmet_Food__2019...
+INFO:root:Epoch 37    loss=0.0074 [50.1 s]	 dev=(HR@5:0.7959,NDCG@5:0.7291) test=(HR@5:0.7150,NDCG@5:0.6389) [14.8 s] 
+INFO:root:Save model to ../model/FISM/FISM__Grocery_and_Gourmet_Food__2019...
+INFO:root:Epoch 38    loss=0.0070 [48.0 s]	 dev=(HR@5:0.7971,NDCG@5:0.7309) test=(HR@5:0.7152,NDCG@5:0.6398) [15.7 s] 
+INFO:root:Save model to ../model/FISM/FISM__Grocery_and_Gourmet_Food__2019...
+INFO:root:Epoch 39    loss=0.0070 [49.1 s]	 dev=(HR@5:0.7958,NDCG@5:0.7306) test=(HR@5:0.7146,NDCG@5:0.6396) [15.6 s] 
+INFO:root:Epoch 40    loss=0.0071 [49.6 s]	 dev=(HR@5:0.7966,NDCG@5:0.7318) test=(HR@5:0.7153,NDCG@5:0.6414) [15.5 s] 
+INFO:root:Save model to ../model/FISM/FISM__Grocery_and_Gourmet_Food__2019...
+INFO:root:Epoch 41    loss=0.0070 [48.7 s]	 dev=(HR@5:0.7961,NDCG@5:0.7314) test=(HR@5:0.7164,NDCG@5:0.6424) [15.9 s] 
+INFO:root:Epoch 42    loss=0.0068 [51.4 s]	 dev=(HR@5:0.7977,NDCG@5:0.7325) test=(HR@5:0.7152,NDCG@5:0.6422) [15.1 s] 
+INFO:root:Save model to ../model/FISM/FISM__Grocery_and_Gourmet_Food__2019...
+INFO:root:Epoch 43    loss=0.0068 [46.6 s]	 dev=(HR@5:0.7987,NDCG@5:0.7343) test=(HR@5:0.7172,NDCG@5:0.6442) [15.1 s] 
+INFO:root:Save model to ../model/FISM/FISM__Grocery_and_Gourmet_Food__2019...
+INFO:root:Epoch 44    loss=0.0070 [48.5 s]	 dev=(HR@5:0.7984,NDCG@5:0.7347) test=(HR@5:0.7161,NDCG@5:0.6442) [15.5 s] 
+INFO:root:Save model to ../model/FISM/FISM__Grocery_and_Gourmet_Food__2019...
+INFO:root:Epoch 45    loss=0.0068 [47.4 s]	 dev=(HR@5:0.7983,NDCG@5:0.7347) test=(HR@5:0.7149,NDCG@5:0.6433) [15.0 s] 
+INFO:root:Epoch 46    loss=0.0065 [50.5 s]	 dev=(HR@5:0.7982,NDCG@5:0.7341) test=(HR@5:0.7151,NDCG@5:0.6431) [14.7 s] 
+INFO:root:Epoch 47    loss=0.0067 [46.1 s]	 dev=(HR@5:0.7975,NDCG@5:0.7335) test=(HR@5:0.7149,NDCG@5:0.6423) [15.0 s] 
+INFO:root:Epoch 48    loss=0.0066 [50.5 s]	 dev=(HR@5:0.7976,NDCG@5:0.7339) test=(HR@5:0.7138,NDCG@5:0.6422) [15.7 s] 
+INFO:root:Epoch 49    loss=0.0065 [50.3 s]	 dev=(HR@5:0.7985,NDCG@5:0.7337) test=(HR@5:0.7142,NDCG@5:0.6435) [15.3 s] 
+INFO:root:Epoch 50    loss=0.0067 [49.8 s]	 dev=(HR@5:0.7999,NDCG@5:0.7359) test=(HR@5:0.7135,NDCG@5:0.6442) [15.3 s] 
+INFO:root:Save model to ../model/FISM/FISM__Grocery_and_Gourmet_Food__2019...
+INFO:root:Epoch 51    loss=0.0065 [46.8 s]	 dev=(HR@5:0.7999,NDCG@5:0.7358) test=(HR@5:0.7129,NDCG@5:0.6430) [14.9 s] 
+INFO:root:Epoch 52    loss=0.0066 [48.4 s]	 dev=(HR@5:0.7985,NDCG@5:0.7352) test=(HR@5:0.7150,NDCG@5:0.6442) [15.5 s] 
+INFO:root:Epoch 53    loss=0.0064 [51.2 s]	 dev=(HR@5:0.8000,NDCG@5:0.7362) test=(HR@5:0.7154,NDCG@5:0.6441) [15.8 s] 
+INFO:root:Save model to ../model/FISM/FISM__Grocery_and_Gourmet_Food__2019...
+INFO:root:Epoch 54    loss=0.0063 [49.3 s]	 dev=(HR@5:0.7984,NDCG@5:0.7353) test=(HR@5:0.7155,NDCG@5:0.6441) [15.7 s] 
+INFO:root:Epoch 55    loss=0.0065 [51.1 s]	 dev=(HR@5:0.7985,NDCG@5:0.7359) test=(HR@5:0.7154,NDCG@5:0.6436) [15.2 s] 
+INFO:root:Epoch 56    loss=0.0062 [49.5 s]	 dev=(HR@5:0.7985,NDCG@5:0.7362) test=(HR@5:0.7159,NDCG@5:0.6452) [15.3 s] 
+INFO:root:Epoch 57    loss=0.0063 [49.1 s]	 dev=(HR@5:0.7969,NDCG@5:0.7351) test=(HR@5:0.7125,NDCG@5:0.6420) [15.4 s] 
+INFO:root:Epoch 58    loss=0.0063 [50.5 s]	 dev=(HR@5:0.7961,NDCG@5:0.7352) test=(HR@5:0.7110,NDCG@5:0.6419) [15.1 s] 
+INFO:root:Epoch 59    loss=0.0062 [50.3 s]	 dev=(HR@5:0.7968,NDCG@5:0.7364) test=(HR@5:0.7149,NDCG@5:0.6444) [15.5 s] 
+INFO:root:Save model to ../model/FISM/FISM__Grocery_and_Gourmet_Food__2019...
+INFO:root:Epoch 60    loss=0.0062 [47.9 s]	 dev=(HR@5:0.7954,NDCG@5:0.7351) test=(HR@5:0.7125,NDCG@5:0.6439) [14.2 s] 
+INFO:root:Epoch 61    loss=0.0061 [50.6 s]	 dev=(HR@5:0.7953,NDCG@5:0.7348) test=(HR@5:0.7133,NDCG@5:0.6435) [15.0 s] 
+INFO:root:Epoch 62    loss=0.0061 [45.9 s]	 dev=(HR@5:0.7947,NDCG@5:0.7334) test=(HR@5:0.7123,NDCG@5:0.6432) [14.1 s] 
+INFO:root:Epoch 63    loss=0.0063 [48.9 s]	 dev=(HR@5:0.7940,NDCG@5:0.7338) test=(HR@5:0.7148,NDCG@5:0.6452) [16.2 s] 
+INFO:root:Epoch 64    loss=0.0060 [50.8 s]	 dev=(HR@5:0.7938,NDCG@5:0.7327) test=(HR@5:0.7116,NDCG@5:0.6433) [14.7 s] 
+INFO:root:Epoch 65    loss=0.0061 [48.6 s]	 dev=(HR@5:0.7933,NDCG@5:0.7323) test=(HR@5:0.7123,NDCG@5:0.6435) [15.7 s] 
+INFO:root:Epoch 66    loss=0.0061 [47.2 s]	 dev=(HR@5:0.7945,NDCG@5:0.7323) test=(HR@5:0.7110,NDCG@5:0.6436) [14.8 s] 
+INFO:root:Epoch 67    loss=0.0062 [47.9 s]	 dev=(HR@5:0.7957,NDCG@5:0.7329) test=(HR@5:0.7102,NDCG@5:0.6433) [15.4 s] 
+INFO:root:Epoch 68    loss=0.0060 [46.6 s]	 dev=(HR@5:0.7938,NDCG@5:0.7323) test=(HR@5:0.7097,NDCG@5:0.6429) [14.5 s] 
+INFO:root:Epoch 69    loss=0.0061 [49.4 s]	 dev=(HR@5:0.7929,NDCG@5:0.7315) test=(HR@5:0.7099,NDCG@5:0.6412) [15.5 s] 
+INFO:root:Epoch 70    loss=0.0062 [49.5 s]	 dev=(HR@5:0.7925,NDCG@5:0.7317) test=(HR@5:0.7121,NDCG@5:0.6426) [15.8 s] 
+INFO:root:Epoch 71    loss=0.0062 [50.9 s]	 dev=(HR@5:0.7940,NDCG@5:0.7324) test=(HR@5:0.7103,NDCG@5:0.6427) [15.7 s] 
+INFO:root:Epoch 72    loss=0.0063 [50.0 s]	 dev=(HR@5:0.7948,NDCG@5:0.7332) test=(HR@5:0.7101,NDCG@5:0.6448) [16.0 s] 
+INFO:root:Epoch 73    loss=0.0060 [49.8 s]	 dev=(HR@5:0.7937,NDCG@5:0.7320) test=(HR@5:0.7129,NDCG@5:0.6452) [14.3 s] 
+INFO:root:Epoch 74    loss=0.0059 [50.6 s]	 dev=(HR@5:0.7931,NDCG@5:0.7314) test=(HR@5:0.7103,NDCG@5:0.6432) [15.7 s] 
+INFO:root:Epoch 75    loss=0.0061 [50.1 s]	 dev=(HR@5:0.7908,NDCG@5:0.7307) test=(HR@5:0.7088,NDCG@5:0.6425) [15.0 s] 
+INFO:root:Epoch 76    loss=0.0060 [47.8 s]	 dev=(HR@5:0.7924,NDCG@5:0.7316) test=(HR@5:0.7086,NDCG@5:0.6434) [15.3 s] 
+INFO:root:Epoch 77    loss=0.0058 [50.7 s]	 dev=(HR@5:0.7933,NDCG@5:0.7316) test=(HR@5:0.7105,NDCG@5:0.6433) [14.5 s] 
+INFO:root:Epoch 78    loss=0.0060 [49.8 s]	 dev=(HR@5:0.7921,NDCG@5:0.7313) test=(HR@5:0.7077,NDCG@5:0.6418) [15.3 s] 
+INFO:root:Epoch 79    loss=0.0058 [50.8 s]	 dev=(HR@5:0.7915,NDCG@5:0.7299) test=(HR@5:0.7090,NDCG@5:0.6417) [15.6 s] 
+INFO:root:Early stop at 79 based on dev result.
+INFO:root:
+Best Iter(dev)=   59	 dev=(HR@5:0.7968,NDCG@5:0.7364) test=(HR@5:0.7149,NDCG@5:0.6444) [5096.3 s] 
+INFO:root:Load model from ../model/FISM/FISM__Grocery_and_Gourmet_Food__2019__lr=0.001__l2=1e-06.pt
+INFO:root:
+Test After Training: (HR@10:0.7746,HR@5:0.7149,NDCG@10:0.6637,NDCG@5:0.6444)
+INFO:root:
+--------------------------------------------- END: 2021-02-07 11:29:04 ---------------------------------------------
