@@ -34,11 +34,13 @@ class FISM(SequentialModel):
         u_bias = self.u_bias(u_ids)  # [batch_size, 1]
         i_bias = self.i_bias(i_ids).squeeze(dim=-1)  # [batch_size, items]
 
-        user_rated_emb = torch.stack([self.p_matrix(index.to('cuda:0')).sum(dim=0) for index in user_rated_item])  # [batch_size, emb_size]
+        user_rated_emb = torch.stack([self.p_matrix(index.to('cuda:0')).sum(dim=0)
+                                      for index in user_rated_item])  # [batch_size, emb_size]
         current_q_item = self.q_matrix(i_ids)  # [batch_size, items, emb_size]
         current_p_item = self.p_matrix(i_ids)  # [batch_size, items, emb_size]
+        current_p_item[:, 1:, :] = 0  # the inner product of p_i and q_i for negative items shouldn't be taken away
+        # from the sum
 
-        # TODO: for negative items, there shouldn't be current_p_item * current_q_item
         prediction = u_bias + i_bias + (user_rated_emb[:, None, :] * current_q_item).sum(dim=-1) - (
                     current_p_item * current_q_item).sum(dim=-1)
 
