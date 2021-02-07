@@ -29,8 +29,7 @@ class FISM(SequentialModel):
         u_ids = feed_dict['user_id']  # [batch_size]
         i_ids = feed_dict['item_id']  # [batch_size, -1]
 
-        # TODO: FISM is a sequential model, which extract user_rated_item from the user's history
-        user_rated_item = feed_dict['user_rated_item']  # List[np.array]
+        user_rated_item = feed_dict['history_items']  # List[torch.tensor]
 
         u_bias = self.u_bias(u_ids)  # [batch_size, 1]
         i_bias = self.i_bias(i_ids).squeeze(dim=-1)  # [batch_size, items]
@@ -46,15 +45,14 @@ class FISM(SequentialModel):
         return {'prediction': prediction.view(feed_dict['batch_size'], -1)}
 
     class Dataset(SequentialModel.Dataset):
-        user_rated_item_key = 'user_rated_item'
-
-        def _get_feed_dict(self, index: int):
-            feed_dict = super()._get_feed_dict(index)
-            feed_dict[self.user_rated_item_key] = np.array(list(self.corpus.user_clicked_set[feed_dict['user_id']]))
-            return feed_dict
-
-        # Collate a batch according to the list of feed dicts
         def collate_batch(self, feed_dicts: List[dict]) -> dict:
-            feed_dict = super().collate_batch(feed_dicts)
-            feed_dict[self.user_rated_item_key] = [torch.from_numpy(d[self.user_rated_item_key]) for d in feed_dicts]
+            feed_dict = dict()
+            for key in feed_dicts[0]:
+                stack_val = np.array([d[key] for d in feed_dicts])
+                if stack_val.dtype == np.object:  # inconsistent length (e.g. history)
+                    feed_dict[key] = [torch.from_numpy(x) for x in stack_val]
+                else:
+                    feed_dict[key] = torch.from_numpy(stack_val)
+            feed_dict['batch_size'] = len(feed_dicts)
+            feed_dict['phase'] = self.phase
             return feed_dict
