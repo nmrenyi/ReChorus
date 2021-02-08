@@ -27,7 +27,7 @@ class FISM(SequentialModel):
         self.check_list = []
 
         u_ids = feed_dict['user_id']  # [batch_size]
-        i_ids = feed_dict['item_id']  # [batch_size, -1]
+        i_ids = feed_dict['item_id']  # [batch_size, items]
 
         user_rated_item = feed_dict['history_items']  # List[torch.tensor]
 
