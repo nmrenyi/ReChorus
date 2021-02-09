@@ -31,21 +31,15 @@ class FISM(SequentialModel):
         i_ids = feed_dict['item_id']  # [batch_size, items]
         user_rated_item = feed_dict['history_items']  # [batch_size, history_max]
 
-        mask = (user_rated_item == 0).unsqueeze(-1)  # [batch_size, history_max, 1]
+        mask_for_rated = (user_rated_item == 0).unsqueeze(-1)  # [batch_size, history_max, 1]
+        mask_for_existing_positive = (user_rated_item == i_ids[:, 0].unsqueeze(-1)).unsqueeze(-1)  # [batch_size, history_max, 1]
         user_rated_emb = self.p_matrix(user_rated_item)  # [batch_size, history_max, emb_size]
-        user_rated_emb = user_rated_emb.masked_fill(mask, 0).sum(dim=1)  # [batch_size, emb_size]
+        user_rated_emb = user_rated_emb.masked_fill(mask_for_rated, 0).masked_fill(mask_for_existing_positive, 0).sum(dim=1)  # [batch_size, emb_size]
 
         u_bias = self.u_bias(u_ids)  # [batch_size, 1]
         i_bias = self.i_bias(i_ids).squeeze(dim=-1)  # [batch_size, items]
 
         current_q_item = self.q_matrix(i_ids)  # [batch_size, items, emb_size]
-        current_p_item = self.p_matrix(i_ids)  # [batch_size, items, emb_size]
-        current_p_item[:, 1:, :] = 0  # the inner product of p_i and q_i for negative items shouldn't be taken away
-        # from the sum
-        # CAUTION: the problem here is that the current positive item may not lies in the history items in the batch.
-        # So directly minus the item's inner product of p_i and q_i is not consistent with the paper.
-        # However, the metrics seems perfect!
 
-        prediction = u_bias + i_bias + (user_rated_emb[:, None, :] * current_q_item).sum(dim=-1) - (
-                    current_p_item * current_q_item).sum(dim=-1)
+        prediction = u_bias + i_bias + (user_rated_emb[:, None, :] * current_q_item).sum(dim=-1)
         return {'prediction': prediction.view(feed_dict['batch_size'], -1)}
