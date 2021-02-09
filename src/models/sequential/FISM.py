@@ -14,6 +14,7 @@ class FISM(SequentialModel):
         return SequentialModel.parse_model_args(parser)
 
     def __init__(self, args, corpus):
+        np.warnings.filterwarnings('ignore', category=np.VisibleDeprecationWarning)
         self.emb_size = args.emb_size
         super().__init__(args, corpus)
 
@@ -41,6 +42,9 @@ class FISM(SequentialModel):
         current_p_item = self.p_matrix(i_ids)  # [batch_size, items, emb_size]
         current_p_item[:, 1:, :] = 0  # the inner product of p_i and q_i for negative items shouldn't be taken away
         # from the sum
+        # CAUTION: the problem here is that the current positive item may not lies in the history items in the batch.
+        # So directly minus the item's inner product of p_i and q_i is not consistent with the paper.
+        # However, the metrics seems perfect!
 
         prediction = u_bias + i_bias + (user_rated_emb[:, None, :] * current_q_item).sum(dim=-1) - (
                     current_p_item * current_q_item).sum(dim=-1)
