@@ -28,14 +28,15 @@ class FISM(SequentialModel):
 
         u_ids = feed_dict['user_id']  # [batch_size]
         i_ids = feed_dict['item_id']  # [batch_size, items]
+        user_rated_item = feed_dict['history_items']  # [batch_size, history_max]
 
-        user_rated_item = feed_dict['history_items']  # List[torch.tensor]
+        mask = (user_rated_item == 0).unsqueeze(-1)  # [batch_size, history_max, 1]
+        user_rated_emb = self.p_matrix(user_rated_item)  # [batch_size, history_max, emb_size]
+        user_rated_emb = user_rated_emb.masked_fill(mask, 0).sum(dim=1)  # [batch_size, emb_size]
 
         u_bias = self.u_bias(u_ids)  # [batch_size, 1]
         i_bias = self.i_bias(i_ids).squeeze(dim=-1)  # [batch_size, items]
 
-        user_rated_emb = torch.stack([self.p_matrix(index.to('cuda:0')).sum(dim=0)
-                                      for index in user_rated_item])  # [batch_size, emb_size]
         current_q_item = self.q_matrix(i_ids)  # [batch_size, items, emb_size]
         current_p_item = self.p_matrix(i_ids)  # [batch_size, items, emb_size]
         current_p_item[:, 1:, :] = 0  # the inner product of p_i and q_i for negative items shouldn't be taken away
@@ -43,18 +44,4 @@ class FISM(SequentialModel):
 
         prediction = u_bias + i_bias + (user_rated_emb[:, None, :] * current_q_item).sum(dim=-1) - (
                     current_p_item * current_q_item).sum(dim=-1)
-
         return {'prediction': prediction.view(feed_dict['batch_size'], -1)}
-
-    class Dataset(SequentialModel.Dataset):
-        def collate_batch(self, feed_dicts: List[dict]) -> dict:
-            feed_dict = dict()
-            for key in feed_dicts[0]:
-                stack_val = np.array([d[key] for d in feed_dicts])
-                if stack_val.dtype == np.object:  # inconsistent length (e.g. history)
-                    feed_dict[key] = [torch.from_numpy(x) for x in stack_val]
-                else:
-                    feed_dict[key] = torch.from_numpy(stack_val)
-            feed_dict['batch_size'] = len(feed_dicts)
-            feed_dict['phase'] = self.phase
-            return feed_dict
