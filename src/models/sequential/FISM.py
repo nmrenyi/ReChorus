@@ -33,8 +33,10 @@ class FISM(SequentialModel):
 
         mask_for_rated = (user_rated_item == 0).unsqueeze(-1)  # [batch_size, history_max, 1]
         mask_for_existing_positive = (user_rated_item == i_ids[:, 0].unsqueeze(-1)).unsqueeze(-1)  # [batch_size, history_max, 1]
+        mask = torch.logical_or(mask_for_rated, mask_for_existing_positive)
+
         user_rated_emb = self.p_matrix(user_rated_item)  # [batch_size, history_max, emb_size]
-        user_rated_emb = user_rated_emb.masked_fill(mask_for_rated, 0).masked_fill(mask_for_existing_positive, 0).sum(dim=1)  # [batch_size, emb_size]
+        user_rated_emb = user_rated_emb.masked_fill(mask, 0).sum(dim=1)  # [batch_size, emb_size]
 
         u_bias = self.u_bias(u_ids)  # [batch_size, 1]
         i_bias = self.i_bias(i_ids).squeeze(dim=-1)  # [batch_size, items]
