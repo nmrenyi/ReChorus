@@ -11,6 +11,7 @@ import torch
 from helpers import *
 from models.general import *
 from models.sequential import *
+from models.developing import *
 from utils import utils
 
 
@@ -21,7 +22,7 @@ def parse_global_args(parser):
                         help='Logging Level, 0, 10, ..., 50')
     parser.add_argument('--log_file', type=str, default='',
                         help='Logging file path')
-    parser.add_argument('--random_seed', type=int, default=2019,
+    parser.add_argument('--random_seed', type=int, default=0,
                         help='Random seed of numpy and pytorch.')
     parser.add_argument('--load', type=int, default=0,
                         help='Whether load model and continue to train')
@@ -34,8 +35,8 @@ def parse_global_args(parser):
 
 def main():
     logging.info('-' * 45 + ' BEGIN: ' + utils.get_time() + ' ' + '-' * 45)
-    exclude = ['check_epoch', 'log_file', 'model_path', 'path', 'pin_memory',
-               'regenerate', 'sep', 'train', 'verbose']
+    exclude = ['check_epoch', 'log_file', 'model_path', 'path', 'pin_memory', 'load',
+               'regenerate', 'sep', 'train', 'verbose', 'metric', 'test_epoch', 'buffer']
     logging.info(utils.format_arg_str(args, exclude_lst=exclude))
 
     # Random seed
@@ -46,8 +47,7 @@ def main():
 
     # GPU
     os.environ["CUDA_VISIBLE_DEVICES"] = args.gpu
-    logging.info('cuda available: {}'.format(torch.cuda.is_available()))
-    logging.info('# cuda devices: {}'.format(torch.cuda.device_count()))
+    logging.info('GPU available: {}'.format(torch.cuda.is_available()))
 
     # Read data
     corpus_path = os.path.join(args.path, args.dataset, model_name.reader + '.pkl')

@@ -48,7 +48,7 @@ class BaseReader(object):
 
     def _append_his_info(self) -> NoReturn:
         """
-        Add history info to data_df: pos
+        Add history info to data_df: position
         ! Need data_df to be sorted by time in ascending order
         """
         logging.info('Appending history info...')
@@ -63,6 +63,7 @@ class BaseReader(object):
                 self.user_his[uid].append((iid, t))
             df['position'] = position
 
+        # TODO: should the clicked set only preserve interactions in training set?
         self.user_clicked_set = dict()
         for uid in self.user_his:
             self.user_clicked_set[uid] = set([x[0] for x in self.user_his[uid]])
